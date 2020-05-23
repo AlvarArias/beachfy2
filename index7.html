@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Beachify</title>
+<link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,500;1,600&display=swap" rel="stylesheet">
+<style type="text/css">
+
+.myvideo {
+ overflow: hidden;
+}
+
+#video-bg {
+  /*position: relative;*/
+  /*position: absolute;
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+  overflow: hidden;
+  width: 100%;*/
+  /*height: 700px;*/
+ /*height: 100%*/
+
+  z-index: -100;
+  overflow: hidden;
+
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0; 
+  left: 0;
+ 
+}
+
+#video-bg > video {
+  
+  overflow: hidden;                  
+
+  /*position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;*/
+
+ object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* 1. No object-fit support: */
+@media (min-aspect-ratio: 16/9) {
+  #video-bg > video { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  #video-bg > video { width: 300%; left: -100%; }
+}
+/* 2. If supporting object-fit, overriding (1): */
+@supports (object-fit: cover) {
+  #video-bg > video {
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+  }
+}
+
+.test {
+ z-index: 1;
+position: relative;
+botton: 0px; 
+border-top-width: 0px;
+border-top-style: solid;
+border-top-color: red;
+height: 66px;
+
+background-image: url("https://www.beachify.me/pview/front-assets/img/transparent.png");
+}
+
+.menu {
+/*border-right-style:red;*/ 
+display: flex;
+padding-left: 10px;
+padding-right: 10%;
+padding-top: 10px;
+list-style-type: none;
+justify-content: space-between; 
+width: 921px;
+margin-left: 0;
+margin-right: auto;
+
+}
+
+.linka {
+ border-right-color: transparent;
+border-right-width: 0px;
+margin: 0px;
+
+}
+
+.block {
+color: transparent;
+cursor: pointer;
+}
+.menu-nav {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    left: 20%;
+    margin: 0 auto 0 auto;
+                                                        
+}
+
+span:hover {
+ text-decoration: underline;
+ color: white;   
+}
+
+/*Images*/
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  /*max-width: 50%;*/
+  max-width: 80%;
+  padding: 0 4px;
+  
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column-img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+.pad-margin {
+      position: absolute;
+      text-align: center;
+      width: 98%;
+      margin-top: 20%;   
+     
+}
+
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: red;
+}
+/*End images*/
+/* test background*/
+.contain {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 179px;
+  width: 373px;
+  border:0
+}
+
+.back01 {
+  background-image:url("https://www.beachify.me/apiv3/photo/iphone/sections_34696768_elements_158883810101_cellBackgroundImage@iphone6plus.jpg?v=1589187926");
+}
+
+/*fonts*/
+
+.new_font {
+  color: rgb(255, 255, 255);
+  /*font-family: Muli;*/
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-position: normal;
+  /*font-size: 30px;*/
+  font-size: 1.17em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-height: 1.4;
+  transition: color 300ms;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  height: auto;
+  width: 100%;
+}
+ 
+ /*width:373px;height:179px;border:0*/
+
+.pad {
+ padding-top: 140px;
+  padding-right: 10px;
+  padding-bottom: 140px;
+  padding-left: 80px;
+}
+.pad-link-img {
+position: absolute; 
+padding-top: 60px; 
+padding-left: 80px;
+}
+
+.pad-margin {
+      position: absolute;
+      text-align: center;
+      width: 48%;
+      margin-top: 10%;   
+     
+}
+
+
+.pad-home {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        margin-top: 300px;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+}  
+
+.text-container {
+position: absolute;
+text-align: center;
+width: 50%;
+margin-top: 150px;
+z-index: 10;
+}
+    /*probar*/
+
+.menu-header {
+z-index: 100;
+position: absolute;
+top: 0px;
+width: 100%;
+display: flex;
+}
+
+.container-low {
+  background: transparent;
+  position: relative;
+  padding: 1rem;
+  margin-top: 100vh;
+  /*overflow: hidden;*/
+  margin-left: 10%}
+
+.frame-test { 
+border:none;
+height: 1500px;
+width: 100%;
+overflow: hidden;
+scrolling: no;
+overscroll-behavior: none;
+top:-100vh;
+ 
+/*object-fit: content*/
+object-position: 0px 0px;   
+  
+}
+
+</style>
+<link rel="stylesheet" type="text/css" href="mystyle6.css">
+</head>
+
+ <body>
+<header class="menu-header">    
+<!--menu principal-->
+<!--<li class="linka" id="logo">
+    <a class="block" href="strandkartan://#!section=32154410">
+        
+        <div class="classic-link-icon"
+            style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92Mi8yNjAvOC5wbmcsI0ZGRkZGRixudWxsLDE=&quot;);">
+        </div>
+        <div class="title-wrapper"><span class="classic-link-title"
+                style="font-size: 1.50em; text-decoration: none; cursor:default;padding-left: 20px; margin-top: 10px;">SEMESTERKÄNSLA</span>
+            
+        </div>
+    </a>
+</li>-->
+<div class="menu-nav" style="display: flex;">
+
+    
+    <ul class="menu" id="menu-principal">
+
+        <!--<ul class="menu" id="logo" style="width: 0px;">
+            <li class="linka" id="logo">
+                <div class="title-wrapper"><span class="classic-link-title"
+                        style="font-size: 1.50em; margin-top: 20px; text-decoration: none; cursor:default; width: 250px; margin-left: 20px;">SEMESTERKÄNSLA</span>
+
+                </div>
+            </li>
+        </ul>-->
+        
+        <li class="linka" id="home">
+            <a class="block" href="strandkartan://#!section=32154410">
+                <!---->
+                <div class="classic-link-icon"
+                    style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92Mi8yNjAvOC5wbmcsI0ZGRkZGRixudWxsLDE=&quot;);">
+                </div>
+                <div class="title-wrapper"><span class="classic-link-title">HOME</span>
+                    <!---->
+                </div>
+            </a>
+        </li>
+        <li class="linka" id="Explore">
+            <a class="block" href="strandkartan://#!section=32154400">
+                <!---->
+                <div class="classic-link-icon"
+                    style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92Mi8yNjAvMTg1LnBuZywjRkZGRkZGLG51bGwsMQ==&quot;);">
+                </div>
+                <div class="title-wrapper"><span class="classic-link-title">EXPLORE</span>
+                    <!---->
+                </div>
+            </a>
+        </li>
+        <li class="linka" id="Thinks">
+            <a class="block" href="strandkartan://#!section=33850968">
+                <!---->
+                <div class="classic-link-icon"
+                    style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92Mi8yNjAvMTMzLnBuZywjRkZGRkZGLG51bGwsMQ==&quot;);">
+                </div>
+                <div class="title-wrapper"><span class="classic-link-title">THINKS TO DO</span>
+                    <!---->
+                </div>
+            </a>
+        </li>
+        <li class="linka" id="Places">
+            <a class="block" href="strandkartan://#!section=34451299">
+                <!---->
+                <div class="classic-link-icon"
+                    style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92MS8yNjAvMjM2LnBuZywjRkZGRkZGLG51bGwsMQ==&quot;);">
+                </div>
+                <div class="title-wrapper"><span class="classic-link-title">PLACES</span>
+                    <!---->
+                </div>
+            </a>
+        </li>
+        <li class="linka" id="menu">
+            <a class="block" onclick="openNav()">
+                <!---->
+                <div class="classic-link-icon"
+                    style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92MS8yNjAvMzU5LnBuZywjRkZGRkZGLG51bGwsMQ==&quot;); transition: color 300ms; color: rgb(255, 255, 255);">
+                </div>
+                <div class="title-wrapper"><span class="classic-link-title" onclick="openNav()">MENU</span>
+                    <!---->
+                </div>
+            </a>
+        </li>
+     </ul>
+    
+</div>
+
+</header>
+<div class="new_font pad-home" style="position: absolute; top:0px; z-index=10; font-size: 30px;">
+<h3 style="color:white">Semesterkänsla</h3>
+</div>
+
+<!--menu derecho-->
+<div id="mySidenav" class="sidenav">
+
+    <div></div>
+
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  
+    <!--definitivo!!-->
+     <a class="" href="strandkartan://#!section=33789067">
+        <div class="mydiv" style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92MS8yNjAvMTQyLnBuZywjRjZGNkY2LG51bGwsMQ==&quot;);">
+        </div>
+            <span class="mydiv">Events</span>
+            
+     </a>
+    
+     <a class="" href="strandkartan://#!section=33788825">
+      <div class="mydiv" style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92Mi8yNjAvNDM5LnBuZywjRjZGNkY2LG51bGwsMQ==&quot;);">
+      </div>
+          <span class="mydiv">Dining and nightlife</span>
+   
+   </a>
+  
+   <a class="" href="strandkartan://#!section=32154406">
+    <div class="mydiv" style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92Mi8yNjAvNDcucG5nLCNGNkY2RjYsbnVsbCwx&quot;);">
+    </div>
+        <span class="mydiv">My spots</span>
+  
+  </a>
+  
+  
+  <a class="" href="strandkartan://#!section=32154408">
+    <div class="mydiv" style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92MS8yNjAvMTIzLnBuZywjRjZGNkY2LG51bGwsMQ==&quot;);">
+    </div>
+        <span class="mydiv">Before you go</span>
+  
+  </a>
+  
+  
+  <a class="" href="strandkartan://#!section=34020467">
+    <div class="mydiv" style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92MS8yNjAvMzE3LnBuZywjRjZGNkY2LG51bGwsMQ==&quot;);">
+    </div>
+        <span class="mydiv">Profile</span>
+  
+  </a>
+  
+  
+  <a class="" href="strandkartan://#!section=32313893">
+    <div class="mydiv" style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92MS8yNjAvMTE1LnBuZywjRjZGNkY2LG51bGwsMQ==&quot;);">
+    </div>
+        <span class="mydiv">Jump in!</span>
+  
+  </a>
+  
+  <a class="" href="strandkartan://#!section=34467282">
+    <div class="mydiv" style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92MS8yNjAvNjQucG5nLCNGNkY2RjYsbnVsbCwx&quot;);">
+    </div>
+        <span class="mydiv">Chat</span>
+  
+  </a>
+  
+  <a class="" href="strandkartan://#!section=348887397">
+    <div class="mydiv" style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92MS8yNjAvMjI0LnBuZywjRjZGNkY2LG51bGwsMQ==&quot;);">
+    </div>
+        <span class="mydiv">Loyalty card</span>
+  
+  </a>
+  
+  <a class="" href="strandkartan://#!section=35130081">
+    <div class="mydiv" style="background-image: url(&quot;https://www.beachify.me/apiv3/colorImage/?seek=aHR0cDovL3d3dy5iZWFjaGlmeS5tZS9hc3NldHMvZ2JpY29uL2ltZy92MS8yNjAvMjM2LnBuZywjRjZGNkY2LG51bGwsMQ==&quot;);">
+    </div>
+        <span class="mydiv">Custom Map</span>
+  
+  </a>
+  
+</div>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+<!--video-->
+<div id="video-bg">
+    <video class="myvideo" controls autoplay="" muted="" playsinline="" loop="">
+    <source  type="video/mp4" src="https://waterspot.org/wp-content/uploads/2019/09/beachifyme-header-video-v2_2.mp4"
+    data-media="(orientation:landscape)">
+<!-- Use square video source to waste less bandwidth: -->
+<source type="video/mp4" src="https://waterspot.org/wp-content/uploads/2020/05/video-portraid2.mp4"
+    data-media="(orientation:portrait)">
+    </video>
+</div>
+
+
+<div class="container-low" style="">
+<!--<iframe class="frame-test" scrolling="no" src="https://www.beachify.me/golf/i/46408796/article-111"> 
+</iframe>-->
+
+<!-- Photo Lansdcape-->
+
+     
+        <div class="column" style="width:100%" id="c1">
+        <div><a href="strandkartan://#!section=34613375"><img
+                                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/grande/46408796-37091981.jpg?v=1590142442"
+                                alt="Vellinge" style=""></a>
+            </div>
+
+        </div>
+    
+</div>
+
+<!--fin lanscape-->
+
+
+
+   
+
+</body>
+</html>
