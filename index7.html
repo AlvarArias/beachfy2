@@ -321,8 +321,7 @@
       position: relative;
       padding: 1rem;
       margin-top: 100vh;
-      /*overflow: hidden;*/
-      /*margin-left: 10%*/
+  
     }
 
     .frame-test {
@@ -338,6 +337,31 @@
       object-position: 0px 0px;
 
     }
+    #container { 
+    width:100%; 
+    height:700px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100vh;
+    }
+
+    #outerdiv {
+    width:90%;
+    height:600px;
+    overflow:hidden;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    #innerdiv {
+    position:absolute;
+    /*top:-7%;*/
+    /*left:0px;*/
+    width:100%;
+    height:600px;
+    }
+
+
   </style>
   <link rel="stylesheet" type="text/css" href="mystyle6.css">
 </head>
@@ -520,6 +544,13 @@
     </video>
   </div>
 
+  <div class="" id="container" >
+    <div id="outerdiv">
+      <iframe id="innerdiv" src="https://www.beachify.me/golf"></iframe>
+    </div>
+  </div>
+
+  <!--
   <div class="container-low" id="Photo-Lansdcape">
      
     <div class="" id="foto1" style="">
@@ -545,7 +576,7 @@
     </div>
 
   </div>
-
+-->
 
 
 </body>
