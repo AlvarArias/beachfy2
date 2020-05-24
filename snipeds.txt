@@ -1,0 +1,131 @@
+1- CSS video fullscreen
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+2- html iframe embeb web page:
+2.1
+<iframe class="frame-test" scrolling="no" src="https://www.beachify.me/golf" style="height:200px; width:100%;
+overflow:hidden; overscroll-behavior:none; z-index:100">
+</iframe> 
+
+2.2
+<iframe class="frame-test" scrolling="no" src="https://www.beachify.me/golf" style="height:200px; width:100%;
+overflow:hidden; overscroll-behavior:none; z-index:100">
+</iframe> 
+
+
+ .frame-test {
+      border: none;
+      height: 1500px;
+      width: 100%;
+      overflow: hidden;
+      scrolling: no;
+      overscroll-behavior: none;
+      top: -100vh;
+      object-position: 0px 0px;
+    }
+
+3- Photo Grid
+
+
+  <!-- Photo Grid -->
+  <!--<div class="container-low">
+<div class="row" style=""> 
+
+<div class="column" style=""id="c1">
+
+<div class="">
+<a class="new_font pad-margin" href="strandkartan://#!section=34613342"
+    style="text-decoration: none; color: white;">Skanörs Hamn</a>
+
+</div>
+<div>
+        <a href="strandkartan://#!section=34613342"><img src="https://www.beachify.me/apiv3/photo/iphone/sections_34696768_elements_158883810101_cellBackgroundImage@iphone6plus.jpg?v=1589187926" alt="Skanörs Hamn" style=""></a>
+    
+</div>
+
+<div class="new_font">
+<a class="new_font pad-margin" href="strandkartan://#!section=34614842"
+    style="text-decoration: none; color: white;">Ljunghusen</a>
+
+            </div><a href="strandkartan://#!section=34613348"><img src="https://www.beachify.me/apiv3/photo/iphone/sections_34696768_elements_158883816512_cellBackgroundImage@iphone6plus.jpg?v=1589141107" alt="Ljunghusen" style=""></a></div>
+
+  
+<div class="column" style=""id="c2">
+
+
+<div class="new_font">
+
+<a class="new_font pad-margin" href="strandkartan://#!section=34613375"
+    style="text-decoration: none; color: white;">Vellinge</a>
+
+      <div><a href="strandkartan://#!section=34613375"><img src="https://www.beachify.me/apiv3/photo/iphone/sections_34696768_elements_158914066065_cellBackgroundImage@iphone6plus.jpg?v=1589140699"alt="Vellinge" style=""></a></div>
+
+
+<a class="new_font pad-margin" href="strandkartan://#!section=34613379"
+    style="text-decoration: none; color: white;">Falsterbro</a>
+    
+   <div><a href="strandkartan://#!section=34613379"><img src="https://www.beachify.me/apiv3/photo/iphone/sections_34696768_elements_158914141028_cellBackgroundImage@iphone6plus.jpg?v=1589141868" alt="Falsterbro" style=""></a></div>
+    
+ </div>
+</div>
+
+</div>
+
+CSS
+  .row {
+      display: -ms-flexbox;
+      /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap;
+      /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+
+ .column {
+      -ms-flex: 100%;
+      /* IE10 */
+      flex: 100%;
+      /*max-width: 50%;*/
+      max-width: 100%;
+      padding: 0 4px;
+
+    }
+
+.new_font {
+      color: rgb(255, 255, 255);
+      /*font-family: Muli;*/
+      font-family: 'Muli', sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      font-variant-ligatures: normal;
+      font-variant-caps: normal;
+      font-variant-east-asian: normal;
+      font-variant-position: normal;
+      /*font-size: 30px;*/
+      font-size: 1.17em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      line-height: 1.4;
+      transition: color 300ms;
+}
+
+.pad-margin {
+        position: absolute;
+        text-align: center;
+        width: 98%;
+        margin-top: 20%;
+
+}
+
