@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,500;1,600&display=swap" rel="stylesheet">
+
+<style type="text/css">
+.video-container {
+ z-index: -1;
+ /*height:auto;*/
+ overflow:hidden;
+ position: absolute;
+ top: 0;
+ left: 0;
+ 
+}
+.above ng-star-inserted{
+z-index: 1;
+top: 0;
+position: absolute;
+}
+
+.new_font {
+  color: rgb(255, 255, 255);
+  /*font-family: Muli;*/
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-position: normal;
+  /*font-size: 30px;*/
+  font-size: 1.17em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-height: 1.4;
+  transition: color 300ms;
+}
+
+.pad-home {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        margin-top: 50%;
+}
+
+</style>
+</head>
+<body style="height:500px;">
+
+<div class="new_font pad-home" style="z-index=10; font-size: 30px;">
+<h3 style="color:white">Beachify</h3>
+</div>
+
+<div class="video-container" style="height=100vh;">
+<video controls class="" autoplay="" muted="" playsinline="" loop="">
+    <source  type="video/mp4" src="https://waterspot.org/wp-content/uploads/2019/09/beachifyme-header-video-v2_2.mp4"
+    data-media="(orientation:landscape)">
+<!--Lanscape -->
+<source type="video/mp4" src="https://waterspot.org/wp-content/uploads/2020/05/video-portraid2.mp4"
+    data-media="(orientation:portrait)">
+<!--Portraid -->
+</video>
+</div>
+</body>
+</html>
