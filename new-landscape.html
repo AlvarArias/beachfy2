@@ -53,13 +53,41 @@ transition: color 300ms;
 }
 
 .content {
-    /*text-align: center;*/
-    /*word-wrap:normal;*/
-    /*overflow-wrap: break-word;*/
-    width: 60vw;
-    margin-left: auto;
-    margin-right: auto;
+    /*width: 60vw;*/
+    /*margin-left: auto;
+    margin-right: auto;*/
+    text-align: center;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+
+.img-back {
+height: 200px;
+
+}
+
+.content{
+width: 90vw;
+height: 200px;
+overflow-wrap: break-word;
+}
+/*
+.link-container {
+    display: flex;
+    flex-direction: column;
+    width:50%
+}
+*/
+}
+
+.text-title {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+}
+
 
   </style>
 
@@ -88,11 +116,22 @@ transition: color 300ms;
 </div>
 
 <div id="gallery-container" style="width: 100%; ">
-<div id="link-img-container; display:flex; width:100%" >
+
+    <div id="link-img-container" class="link-container" >
+    <div class="text-title new_font">
+    <h4>Ljunghusens </h4>
+    <h4>Flommens</h4>
+    <h4>Flasterbo</h4>
+    <h4>Soderslatts Vellinge</h4>
+    <h4> Vellinge</h4>
+    
+    </div>
+
     <a href="https://www.beachify.me/golf-1/c/0/i/46177006/ljunghusens-golfklubb"><img class="img-gallery"
             alt="ljunghusens-golfklubb"
             src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46177006-36994258.jpg?v=1589625798;"
             /></a>
+            
              <a href="https://www.beachify.me/golf-1/c/0/i/46161095/flommens-golfklubb"><img class="img-gallery"
             alt="flommens-golfklubb"
             src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46161095-36989852.jpg?v=1589583645"
@@ -107,8 +146,15 @@ transition: color 300ms;
             /></a>
 </div>
 </div>
-  
+<br>
+<!--
+<div id="cont-img-down">
 
+    <img class="img-back" style="margin: 10px;"
+        src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46391287-37083458.jpg?v=1590095109" alt="">
+
+</div>
+-->
 </body>
 
 </html>

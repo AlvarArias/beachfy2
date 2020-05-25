@@ -65,7 +65,7 @@ overflow:hidden; overscroll-behavior:none; z-index:100">
 
 <a class="new_font pad-margin" href="strandkartan://#!section=34613375"
     style="text-decoration: none; color: white;">Vellinge</a>
-
+  
       <div><a href="strandkartan://#!section=34613375"><img src="https://www.beachify.me/apiv3/photo/iphone/sections_34696768_elements_158914066065_cellBackgroundImage@iphone6plus.jpg?v=1589140699"alt="Vellinge" style=""></a></div>
 
 
