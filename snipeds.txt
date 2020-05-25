@@ -1,7 +1,7 @@
 1- CSS video fullscreen
 
 video {
-  object-fit: cover;
+  /*object-fit: cover;*/
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -129,3 +129,30 @@ CSS
 
 }
 
+<a href="https://www.beachify.me/golf-1/c/0/i/46177006/ljunghusens-golfklubb"><img alt="Golf" border="0" height="100" p="" src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46177006-36994258.jpg?v=1589625798;" width="150" /></a>
+
+<a href="https://www.beachify.me/golf-1/c/0/i/46161095/flommens-golfklubb"><img alt="Golf" border="0" height="100" p="" src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46161095-36989852.jpg?v=1589583645" width="150" /></a>
+
+<a href="https://www.beachify.me/golf-1/c/0/i/46175815/flasterbo-gk"><img alt="Golf" border="0" height="100" p="" src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/grande/46175815-36994066.jpg?v=1589624338" width="150" /></a>
+
+<a href="https://www.beachify.me/golf-1/c/0/i/46158850/soderslatts-golfklubb"><img alt="Golf" border="0" height="100" p="" src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46158850-36989368.jpg?v=1589579910" width="150" /></a>
+
+<a href="https://www.beachify.me/golf-1/c/0/i/46155577/vellinge-golfklubb"><img alt="Golf" border="0" height="100" p="" src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46155577-36988528.jpg?v=1589574416" width="150" /></a>
+
+
+Responsive break-points:
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
