@@ -11,7 +11,7 @@
 
 .img-back {
     width: 100vw;
-    height: 600px;
+    height: auto;
 
 }
 
@@ -52,7 +52,12 @@ display: -webkit-box;
 line-height: 1.4;
 transition: color 300ms;
 }
-
+.text-title {
+display: flex;
+flex-direction: row;
+width: 100vw;
+justify-content: space-around;
+}
 .content {
     /*width: 60vw;*/
     /*margin-left: auto;
@@ -63,39 +68,25 @@ transition: color 300ms;
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
 
-.img-back {
-height: 200px;
-/*object-fit: cover;*/
-}
-
 .content{
 width: 90vw;
 height: 200px;
 overflow-wrap: break-word;
 }
-/*
-.link-container {
-    display: flex;
-    flex-direction: column;
-    width:50%
-}
-*/
+
 }
 
-.text-title {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    justify-content: space-around;
-}
+@media screen and (min-width: 600) and (max-width:1024){
 
+
+}
 
   </style>
 
 
 </head>
 <body>
-<div id="cont-img-background" style="object-fit: contain;">
+<div id="cont-img-background" style="object-fit:cover;">
 
         <img class="img-back"
             src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/44822147-37147478.jpg?v=1590489932"
@@ -156,7 +147,12 @@ overflow-wrap: break-word;
                     alt="Höllviksnäs"
             src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45920626-36883346.jpg?v=1589107952"
             /></a>
+    </div>
 </div>
+
+<div id="gallery-container" style="width: 100%; ">
+
+
 </div>
 <br>
 <!--
