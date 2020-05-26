@@ -65,7 +65,7 @@ transition: color 300ms;
 
 .img-back {
 height: 200px;
-
+/*object-fit: cover;*/
 }
 
 .content{
@@ -95,9 +95,10 @@ overflow-wrap: break-word;
 
 </head>
 <body>
-<div id="cont-img-background">
+<div id="cont-img-background" style="object-fit: contain;">
 
-        <img class="img-back" src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46391287-37129497.jpg?v=1590400498"
+        <img class="img-back"
+            src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/44822147-37147478.jpg?v=1590489932"
             alt="">
 
 </div>    
@@ -120,12 +121,12 @@ overflow-wrap: break-word;
 <div id="gallery-container" style="width: 100%; ">
 
     <div id="link-img-container" class="link-container" >
-    <div class="text-title new_font">
-    <h4>Lotsvillan hotell </h4>
-    <h4>Falsterbo camping and resort</h4>
-    <h4>Ängavallen</h4>
-    <h4>hotell gässling spa</h4>
-    <h4> Höllviksnäs</h4>
+    <div class="text-title new_font" style="justify-content:space-evenly; padding-right: 10px;">
+    <h4 style="width: 300px;">Lotsvillan hotell </h4>
+    <h4 style="width: 19%"   >Falsterbo camping and resort</h4>
+    <h4 style="width: 300px">Ängavallen</h4>
+    <h4 style="width: 300px;">hotell gässling spa</h4>
+    <h4 style="width: 300px;"> Höllviksnäs</h4>
     
     </div>
 
