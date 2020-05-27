@@ -32,6 +32,7 @@ margin: 0px;
 width: 100vw;
 }
 
+
 .new_font {
 color: rgb(3, 3, 3);
 /*font-family: Muli;*/
@@ -44,13 +45,13 @@ font-variant-east-asian: normal;
 font-variant-position: normal;
 /*font-size: 30px;*/
 font-size: 1.17em;
-overflow: hidden;
+/*overflow: hidden;
 text-overflow: ellipsis;
 display: -webkit-box;
 -webkit-box-orient: vertical;
 -webkit-line-clamp: 1;
-line-height: 1.4;
-transition: color 300ms;
+/*line-height: 1.4;
+transition: color 300ms;*/
 }
 
 .content {
@@ -70,26 +71,46 @@ height: 200px;
 
 .content{
 width: 90vw;
-height: 200px;
-overflow-wrap: break-word;
+/*height: 200px;*/
+overflow-wrap:break-word;
 }
-/*
-.link-container {
-    display: flex;
-    flex-direction: column;
-    width:50%
+
+.gallery-container {
+flex-flow: column wrap;
 }
-*/
+
+
 }
 
 .text-title {
     display: flex;
     flex-direction: row;
+
     width: 100vw;
     justify-content: space-around;
 }
 
+.gallery-container {
+display: flex;
+flex-direction: row;
+width: 100%;
 
+
+}
+
+.content-2 {
+width: 100%;
+text-align: center;
+background-color:white;
+padding: 2.3px;
+
+}
+
+.img-gallery2 {
+width: 100%;
+height: 180px;
+object-fit: cover;
+}
   </style>
 
 
@@ -108,10 +129,12 @@ overflow-wrap: break-word;
     <p class="new_font">Det finns gott om spa och fantastiska stränder på Falsterbonäste för den som är sugen på massage, ansiktsbehandlingar, kroppsskrubb och avslappning. 
     </p>
 
-    <p class="new_font">Och inget passar väl bättre än en bra spabehandling när man vill ta en paus från jobb och stress. Unna dig en lugn stund och tillbringa dagen på Falsterbonäset...
+    <p class="new_font">Och inget passar väl bättre än en bra spabehandling när man vill ta en paus från jobb och stress. Unna dig en lugn stund och tillbringa dagen på Falsterbonäset.
     </p>
+    <!--
     <a href=“strandkartan://#!section=34603645&item=44822147”>link 1</a>
     <a href=strandkartan://#!section=34603645&item=45013568">link 2</a>
+    -->
     <!--<p class="new_font"></p>-->
    <br>
    
@@ -119,7 +142,7 @@ overflow-wrap: break-word;
 </div>
 
 </div>
-
+<!--
 <div id="gallery-container" style="width: 100%; ">
 
     <div id="link-img-container" class="link-container" >
@@ -152,7 +175,43 @@ overflow-wrap: break-word;
             /></a>
 </div>
 </div>
+<br>-->
+
+<!--experiment-->
+<div class="gallery-container">
+
+    <div class="content-2">
+        <h4 class="new_font">spa1</h4>
+        <a href=""><img class="img-gallery2" alt="ljunghusens-golfklubb"
+                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46408796-37121087.jpg?v=1590344366" /></a>
+    </div>
+  <div class="content-2">
+      <h4 class="new_font">spa2</h4>
+      <a href=""><img class="img-gallery2" alt="ljunghusens-golfklubb"
+              src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46408796-37092041.jpg?v=1590142667"
+              /></a>
+  </div>
+   <div class="content-2">
+       <h4 class="new_font">spa3</h4>
+       <a href=""><img class="img-gallery2" alt="ljunghusens-golfklubb"
+               src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46408796-37121087.jpg?v=1590344366" /></a>
+   </div>
+   <div class="content-2">
+       <h4 class="new_font">spa4</h4>
+       <a href=""><img class="img-gallery2" alt="ljunghusens-golfklubb"
+               src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46408796-37092041.jpg?v=1590142667"
+               /></a>
+   </div>
+    <div class="content-2">
+        <h4 class="new_font">spa5</h4>
+        <a href=""><img class="img-gallery2" alt="ljunghusens-golfklubb"
+                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46408796-37121087.jpg?v=1590344366" /></a>
+    </div>
+    
+</div>
 <br>
+<!--fin-->
+
 <!--
 <div id="cont-img-down">
 
