@@ -6,90 +6,101 @@
 
   <title>Landscape</title>
   <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,500;1,600&display=swap" rel="stylesheet">
+
   <style type="text/css">
+      .img-back {
+          /*width: 100vw;*/
+          width: 600px;
+          height: auto;
+
+      }
+
+      .img-gallery {
+          width: 100%;
+          height: 180px;
+          object-fit: cover;
+      }
+
+      html {
+          margin-left: 0px;
+          margin-right: 0px;
+      }
+
+      body {
+          margin: 0px;
+          width: 100vw;
+      }
 
 
-.img-back {
-    width: 100vw;
-    height: 600px;
+      .new_font {
+          color: rgb(3, 3, 3);
+          /*font-family: Muli;*/
+          font-family: 'Muli', sans-serif;
+          font-weight: normal;
+          font-style: normal;
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-east-asian: normal;
+          font-variant-position: normal;
+          font-size: 1.17em;
+      }
 
-}
+      .content {
+          text-align: center;
+      }
 
+      /* Extra small devices (phones, 600px and down) */
+      @media screen and (max-width: 600px) {
 
-.img-gallery {
-    width: 19.5%;
-    height: 180px;
-    object-fit: cover;
-}
+          .img-back {
+              height: 200px;
 
-html {
- margin-left: 0px;
- margin-right:0px;
-}
+          }
 
-body{
-margin: 0px;
-width: 100vw;
-}
+          .content {
+              width: 90vw;
+              overflow-wrap: break-word;
+              margin-left: auto;
+              margin-right: auto;
+              padding-left: 5px;
+              padding-right: 5px;
+          }
 
-.new_font {
-color: rgb(3, 3, 3);
-/*font-family: Muli;*/
-font-family: 'Muli', sans-serif;
-font-weight: normal;
-font-style: normal;
-font-variant-ligatures: normal;
-font-variant-caps: normal;
-font-variant-east-asian: normal;
-font-variant-position: normal;
-/*font-size: 30px;*/
-font-size: 1.17em;
-overflow: hidden;
-text-overflow: ellipsis;
-display: -webkit-box;
--webkit-box-orient: vertical;
--webkit-line-clamp: 1;
-line-height: 1.4;
-transition: color 300ms;
-}
+          .gallery-container {
+              flex-flow: column wrap;
+          }
 
-.content {
-    /*width: 60vw;*/
-    /*margin-left: auto;
-    margin-right: auto;*/
-    text-align: center;
-}
+      }
 
-/* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 600px) {
+      .text-title {
+          display: flex;
+          flex-direction: row;
 
-.img-back {
-height: 200px;
+          width: 100vw;
+          justify-content: space-around;
+      }
 
-}
-
-.content{
-width: 90vw;
-height: 200px;
-overflow-wrap: break-word;
-}
-/*
-.link-container {
-    display: flex;
-    flex-direction: column;
-    width:50%
-}
-*/
-}
-
-.text-title {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    justify-content: space-around;
-}
+      .gallery-container {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
 
 
+      }
+
+      .content-2 {
+          width: 100%;
+          text-align: center;
+          background-color: white;
+          padding: 2.3px;
+
+      }
+
+      .img-gallery2 {
+          width: 100%;
+          height: 180px;
+          object-fit: cover;
+      }
   </style>
 
 
@@ -115,7 +126,52 @@ overflow-wrap: break-word;
 </div>
 
 </div>
+<!--final-->
+<div class="gallery-container">
 
+    <div class="content-2">
+    <h4>Ljunghusens </h4>
+    <a href="https://www.beachify.me/golf-1/c/0/i/46177006/ljunghusens-golfklubb"><img class="img-gallery"
+            alt="ljunghusens-golfklubb"
+            src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46177006-36994258.jpg?v=1589625798;" /></a>
+
+    </div>
+
+    <div class="content-2">
+    <h4>Flommens</h4>
+        <a href="https://www.beachify.me/golf-1/c/0/i/46161095/flommens-golfklubb"><img class="img-gallery"
+                alt="flommens-golfklubb"
+                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46161095-36989852.jpg?v=1589583645" /></a>
+
+    </div>
+
+    <div class="content-2">
+        <h4>Flasterbo</h4>
+        <a href="https://www.beachify.me/golf-1/c/0/i/46175815/flasterbo-gk"><img class="img-gallery" alt="flasterbo-gk"
+                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/grande/46175815-36994066.jpg?v=1589624338" /></a>
+
+
+    </div>
+
+    <div class="content-2">
+        <h4>Soderslatts Vellinge</h4>
+        <a href="https://www.beachify.me/golf-1/c/0/i/46158850/soderslatts-golfklubb"><img class="img-gallery"
+                alt="soderslatts-golfklubb"
+                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46158850-36989368.jpg?v=1589579910" /></a>
+
+    </div>
+
+    <div class="content-2">
+        <h4> Vellinge</h4>
+        <a href="https://www.beachify.me/golf-1/c/0/i/46155577/vellinge-golfklubb"><img class="img-gallery" style=""
+                alt="vellinge-golfklubb"
+                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46155577-36988528.jpg?v=1589574416" /></a>
+
+    </div>
+
+</div>
+
+<!--
 <div id="gallery-container" style="width: 100%; ">
 
     <div id="link-img-container" class="link-container" >
@@ -136,10 +192,12 @@ overflow-wrap: break-word;
              <a href="https://www.beachify.me/golf-1/c/0/i/46161095/flommens-golfklubb"><img class="img-gallery"
             alt="flommens-golfklubb"
             src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46161095-36989852.jpg?v=1589583645"
-            /></a> <a href="https://www.beachify.me/golf-1/c/0/i/46175815/flasterbo-gk"><img class="img-gallery"
+            /></a> 
+            <a href="https://www.beachify.me/golf-1/c/0/i/46175815/flasterbo-gk"><img class="img-gallery"
             alt="flasterbo-gk" 
             src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/grande/46175815-36994066.jpg?v=1589624338"
-            /></a> <a href="https://www.beachify.me/golf-1/c/0/i/46158850/soderslatts-golfklubb"><img class="img-gallery"
+            /></a> 
+            <a href="https://www.beachify.me/golf-1/c/0/i/46158850/soderslatts-golfklubb"><img class="img-gallery"
             alt="soderslatts-golfklubb" 
             src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46158850-36989368.jpg?v=1589579910"
             /></a> <a href="https://www.beachify.me/golf-1/c/0/i/46155577/vellinge-golfklubb"><img class="img-gallery" style="" alt="vellinge-golfklubb" 
@@ -147,7 +205,7 @@ overflow-wrap: break-word;
             /></a>
 </div>
 </div>
-<br>
+<br>-->
 <!--
 <div id="cont-img-down">
 

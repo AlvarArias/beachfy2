@@ -6,82 +6,103 @@
 
   <title>Hotel</title>
   <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,500;1,600&display=swap" rel="stylesheet">
-  <style type="text/css">
+ 
+    <style type="text/css">
+        .img-back {
+            width: 100vw;
+            height: auto;
+
+        }
+
+        .img-gallery {
+            width: 19.5%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        html {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        body {
+            margin: 0px;
+            width: 100vw;
+        }
 
 
-.img-back {
-    width: 100vw;
-    height: auto;
+        .new_font {
+            color: rgb(3, 3, 3);
+            /*font-family: Muli;*/
+            font-family: 'Muli', sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-east-asian: normal;
+            font-variant-position: normal;
+            font-size: 1.17em;
+        }
 
-}
+        .content {
+            text-align: center;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
 
+        /* Extra small devices (phones, 600px and down) */
+        @media screen and (max-width: 600px) {
 
-.img-gallery {
-    width: 19.5%;
-    height: 180px;
-    object-fit: cover;
-}
+            .img-back {
+                height: 200px;
 
-html {
- margin-left: 0px;
- margin-right:0px;
-}
+            }
 
-body{
-margin: 0px;
-width: 100vw;
-}
+            .content {
+                width: 90vw;
+                overflow-wrap: break-word;
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
 
-.new_font {
-color: rgb(3, 3, 3);
-/*font-family: Muli;*/
-font-family: 'Muli', sans-serif;
-font-weight: normal;
-font-style: normal;
-font-variant-ligatures: normal;
-font-variant-caps: normal;
-font-variant-east-asian: normal;
-font-variant-position: normal;
-/*font-size: 30px;*/
-font-size: 1.17em;
-overflow: hidden;
-text-overflow: ellipsis;
-display: -webkit-box;
--webkit-box-orient: vertical;
--webkit-line-clamp: 1;
-line-height: 1.4;
-transition: color 300ms;
-}
-.text-title {
-display: flex;
-flex-direction: row;
-width: 100vw;
-justify-content: space-around;
-}
-.content {
-    /*width: 60vw;*/
-    /*margin-left: auto;
-    margin-right: auto;*/
-    text-align: center;
-}
+            .gallery-container {
+                flex-flow: column wrap;
+            }
 
-/* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 600px) {
+        }
 
-.content{
-width: 90vw;
-height: 200px;
-overflow-wrap: break-word;
-}
+        .text-title {
+            display: flex;
+            flex-direction: row;
 
-}
+            width: 100vw;
+            justify-content: space-around;
+        }
 
-@media screen and (min-width: 600) and (max-width:1024){
+        .gallery-container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
 
 
-}
+        }
 
-  </style>
+        .content-2 {
+            width: 100%;
+            text-align: center;
+            background-color: white;
+            padding: 2.3px;
+
+        }
+
+        .img-gallery2 {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+    </style>
 
 
 </head>
@@ -89,7 +110,7 @@ overflow-wrap: break-word;
 <div id="cont-img-background" style="object-fit:cover;">
 
         <img class="img-back"
-            src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/44822147-37147478.jpg?v=1590489932"
+            src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45956829-36904392.jpg?v=1589191223"
             alt="">
 
 </div>    
@@ -101,102 +122,87 @@ overflow-wrap: break-word;
     <p class="new_font">Vi hjäper er att hitta rätt i er sökan efter sommarnöjen och
         det genuina lugnet.</p>
 
-    <!--<p class="new_font"></p>-->
+   
    <br>
    
-    <!--<p><a href="strandkartan://#!section=35469617">strandkartan://#!section=35469617</a></p>-->
-</div>
 
 </div>
 
+</div>
+<!--
 <div id="gallery-container" style="width: 100%; ">
 
-    <div id="link-img-container" class="link-container" >
-    <div class="text-title new_font" style="justify-content:space-evenly; padding-right: 10px;">
-    <h4 style="width: 300px;">Lotsvillan hotell </h4>
-    <h4 style="width: 19%"   >Falsterbo camping and resort</h4>
-    <h4 style="width: 300px">Ängavallen</h4>
-    <h4 style="width: 300px;">hotell gässling spa</h4>
-    <h4 style="width: 300px;"> Höllviksnäs</h4>
+
     
-    </div>
-    <!--1-->
-    <a href="https://www.beachify.me/hotel/c/0/i/45956829/lotsvillans-hostel"><img class="img-gallery"
+    <a href=""><img class="img-gallery"
             alt="Lotsvillan hotell"
-            src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45956829-36904392.jpg?v=1589191223"
+            src=""
             /></a>
-    <!--2-->
-    <a href="https://www.beachify.me/hotel/c/0/i/45957058/falsterbo-camping-and-resort"><img class="img-gallery"
-    alt="Falsterbo camping and resort" src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45957058-36904559.jpg?v=1589191979"/></a> 
+    
+    <a href=""><img class="img-gallery"
+    alt="Falsterbo camping and resort" src=""/></a> 
             
-            <a href="https://www.beachify.me/hotel/c/0/i/45963577/angavallen"><img class="img-gallery"
+            <a href=""><img class="img-gallery"
             alt="Ängavallen"
-            src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45963577-36907774.jpg?v=1589206325"
+            src=""
             /></a> 
             
-            <a href="https://www.beachify.me/hotel/c/0/i/44822147/hotell-gasslingen-hotell-konferens-i-skanor-falsterbo"><img
+            <a href=""><img
                     class="img-gallery"
             alt="hotell gässling spa"
-            src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/44822147-36467097.jpg?v=1586860994"
+            src=""
             /></a> 
             
-            <a href="https://www.beachify.me/hotel/c/0/i/45920626/hollviksnas"><img class="img-gallery" style=""
+            <a href=""><img class="img-gallery" style=""
                     alt="Höllviksnäs"
-            src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45920626-36883346.jpg?v=1589107952"
+            src=""
             /></a>
     </div>
-</div>
-<!--test--> 
-<!--<div id="gallery-container" style="width: 100%; ">
+</div>-->
 
-    <div id="link-img-container" class="link-container" style="display:flex;flex-direction: row;flex: 19%;">
-        <div class="text-title new_font" style="justify-content:space-evenly; padding-right: 10px;">
-            <h4 style="width: 300px;">Lotsvillan hotell </h4>
-            <h4 style="width: 19%">Falsterbo camping and resort</h4>
-            <h4 style="width: 300px">Ängavallen</h4>
-            <h4 style="width: 300px;">hotell gässling spa</h4>
-            <h4 style="width: 300px;"> Höllviksnäs</h4>
+<!--final-->
+<div class="gallery-container">
 
-        </div>
-        
-        <div id="1" style="width: 19%;">
-        <h4 style="width: 300px;">Lotsvillan hotell </h4>
-        <a href="https://www.beachify.me/hotel/c/0/i/45956829/lotsvillans-hostel"><img class="img-gallery" style="width: 300px;"
+    <div class="content-2">
+        <h4 class="new_font">Lotsvillan hotell</h4>
+        <a href="https://www.beachify.me/hotel/c/0/i/45956829/lotsvillans-hostel"><img class="img-gallery2"
                 alt="Lotsvillan hotell"
-                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45956829-36904392.jpg?v=1589191223" /></a>
-        </div>        
-        
-        <div style="width: 19%">
-        <h4 style="width: 300px;">Falsterbo camping and resort</h4>
-        <a href="https://www.beachify.me/hotel/c/0/i/45957058/falsterbo-camping-and-resort"><img class="img-gallery"
-                alt="Falsterbo camping and resort"
-                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45957058-36904559.jpg?v=1589191979" style="width: 300px;" /></a>
-                </div>
-
-        <a href="https://www.beachify.me/hotel/c/0/i/45963577/angavallen"><img class="img-gallery" alt="Ängavallen"
-                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45963577-36907774.jpg?v=1589206325" /></a>
-
-        <a href="https://www.beachify.me/hotel/c/0/i/44822147/hotell-gasslingen-hotell-konferens-i-skanor-falsterbo"><img
-                class="img-gallery" alt="hotell gässling spa"
-                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/44822147-36467097.jpg?v=1586860994" /></a>
-
-        <a href="https://www.beachify.me/hotel/c/0/i/45920626/hollviksnas"><img class="img-gallery" style=""
-                alt="Höllviksnäs"
-                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45920626-36883346.jpg?v=1589107952" /></a>
+                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45956829-36904392.jpg?v=1589191223"
+                /></a>
     </div>
+    <div class="content-2">
+        <h4 class="new_font">Falsterbo camping and resort</h4>
+        <a href="https://www.beachify.me/hotel/c/0/i/45957058/falsterbo-camping-and-resort"><img class="img-gallery2"
+                alt="Falsterbo camping and resort"
+                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45957058-36904559.jpg?v=1589191979"
+                /></a>
+    </div>
+    <div class="content-2">
+        <h4 class="new_font">Ängavallen</h4>
+        <a href="https://www.beachify.me/hotel/c/0/i/45963577/angavallen"><img class="img-gallery2" alt="Ängavallen"
+                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45963577-36907774.jpg?v=1589206325" /></a>
+    </div>
+    <div class="content-2">
+        <h4 class="new_font">Hotell gässling spa</h4>
+        <a href="https://www.beachify.me/hotel/c/0/i/44822147/hotell-gasslingen-hotell-konferens-i-skanor-falsterbo"><img
+                class="img-gallery2" alt="Hotell gässling spa"
+                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/44822147-36467097.jpg?v=1586860994"
+                /></a>
+    </div>
+    <div class="content-2">
+        <h4 class="new_font">Höllviksnäs</h4>
+        <a href="https://www.beachify.me/hotel/c/0/i/45920626/hollviksnas"><img class="img-gallery2" alt="Höllviksnäs"
+                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45920626-36883346.jpg?v=1589107952"
+                /></a>
+    </div>
+
 </div>
-fin test-->
+<br>
+<!--fin-->
 
 
 <br>
-<!--
-<div id="cont-img-down">
 
-    <img class="img-back" style="margin: 10px;"
-        src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46391287-37083458.jpg?v=1590095109" alt="">
-
-</div>
--->
 </body>
 
 </html>
