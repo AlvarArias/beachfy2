@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<meta name="viewport" content="width=device-width">
+<head>
+  <meta charset="utf-8">
+
+  <title id="name-page">themplate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,500;1,600&display=swap" rel="stylesheet">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <style type="text/css">
+
+.img-back {
+    width: 100vw;
+    height: auto;
+
+}
+
+.img-gallery {
+    width: 19.5%;
+    height: 180px;
+    object-fit: cover;
+}
+
+html {
+ margin-left: 0px;
+ margin-right:0px;
+}
+
+body{
+margin: 0px;
+width: 100vw;
+}
+
+
+.new_font {
+color: rgb(3, 3, 3);
+/*font-family: Muli;*/
+font-family: 'Muli', sans-serif;
+font-weight: normal;
+font-style: normal;
+font-variant-ligatures: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-position: normal;
+font-size: 1.17em;
+}
+
+.content {
+    text-align: center;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+
+.img-back {
+height: 250px;
+object-fit: cover;
+}
+
+.content{
+width: 90vw;
+overflow-wrap:break-word;
+margin-left: auto;
+margin-right: auto;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.gallery-container {
+flex-flow: column wrap;
+}
+
+}
+
+.text-title {
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.gallery-container {
+display: flex;
+flex-direction: row;
+width: 100%;
+
+
+}
+
+.content-2 {
+width: 100%;
+text-align: center;
+background-color:white;
+padding: 2.3px;
+
+}
+
+.img-gallery2 {
+width: 100%;
+height: 180px;
+object-fit: cover;
+}
+  </style>
+
+
+</head>
+<body>
+<div id="cont-img-background">
+
+        <img class="img-back" id="imagen-background"
+            src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/44822147-37147478.jpg?v=1590489932"
+            alt="">
+
+</div>    
+<div id="text-container">
+<div class="content">
+    <h3 class="new_font"  id="content-title" style="font-size: 30px;">Din guide till spabehandlingar och gårdsbutiker</h3>
+    <p class="new_font" id="parrafo-1">Det finns gott om spa och fantastiska stränder på Falsterbonäste för den som är sugen på massage, ansiktsbehandlingar, kroppsskrubb och avslappning. 
+    </p>
+
+    <p class="new_font" id="parrafo-2">Och inget passar väl bättre än en bra spabehandling när man vill ta en paus från jobb och stress. Unna dig en lugn stund och tillbringa dagen på Falsterbonäset.
+    </p>
+  
+    <p class="new_font" id="parrafo-3">Och inget passar väl bättre än en bra spabehandling när man vill ta en paus från
+        jobb och stress. Unna dig en lugn stund och tillbringa dagen på Falsterbonäset.
+    </p>
+
+   <br>
+
+</div>
+
+</div>
+
+<!--final-->
+<div class="gallery-container">
+
+    <div class="content-2" id="gallery-1">
+        <h4 class="new_font" id="text-gallery-1">spa1</h4>
+        <a href="www.google.com" id="link-1"><img class="img-gallery2" id="img-gallery-1" alt=""
+                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46408796-37121087.jpg?v=1590344366" /></a>
+    </div>
+  <div class="content-2" id="gallery-2">
+      <h4 class="new_font" id="text-gallery-2">spa2</h4>
+      <a href="" id="link-2"><img class=" img-gallery2" id="img-gallery-2" alt=""
+              src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46408796-37092041.jpg?v=1590142667"
+              /></a>
+  </div>
+   <div class="content-2" id="gallery-3">
+       <h4 class="new_font" id="text-gallery-3">spa3</h4>
+       <a href="" id="link-3"><img class="img-gallery2" id="img-gallery-3" alt=""
+               src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46408796-37121087.jpg?v=1590344366" /></a>
+   </div>
+   <div class="content-2" id="gallery-4">
+       <h4 class="new_font" id="text-gallery-4">spa4</h4>
+       <a href="" id="link-4"><img class="img-gallery2" id="img-gallery-4" alt=""
+               src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46408796-37092041.jpg?v=1590142667"
+               /></a>
+   </div>
+    <div class="content-2" id="gallery-5">
+        <h4 class="new_font" id="text-gallery-5">spa5</h4>
+        <a href="" id="link-5"><img class="img-gallery2" id="img-gallery-5" alt=""
+                src="https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46408796-37121087.jpg?v=1590344366" /></a>
+    </div>
+    
+</div>
+<br>
+<!--fin-->
+<script>
+    /*Nombre pagina*/
+    $('#name-page').text("new page name");
+
+    /*Img Background*/
+    $('#imagen-background').attr("src","");
+
+    /*Titulo principal*/
+    $('#content-title').text("The New Title");
+    /*parrafo 1*/
+    $('#parrafo-1').text("My parrafo 1 nuevo.");
+    /*parrafo 2*/
+    $('#parrafo-2').text("my parrafo 2.");
+    /*parrafo3*/
+    $('#parrafo-3').text("my parrafo 3.");
+
+    /*Gallery*/
+    /*Galleria 1*/
+    $('#text-gallery-1').text("foto 1");
+    $('#img-gallery-1').attr("src","");
+    /*Link*/
+    $('#link-1').attr("href","");
+
+    /*Galleria 2*/
+    $('#text-gallery-2').text("foto 2");
+    $('#img-gallery-2').attr("src","");
+    /*Link*/
+    $('#link-2').attr("href","");
+
+    /*Galleria 3*/
+    $('#text-gallery-3').text("foto 3");
+    $('#img-gallery-3').attr("src","");
+    /*Link*/
+    $('#link-3').attr("href","");
+
+    /*Galleria 4*/
+    $('#text-gallery-4').text("foto 4");
+    $('#img-gallery-4').attr("src","");
+    /*Link*/
+    $('#link-4').attr("href","");
+
+    /*Galleria 5*/
+    $('#text-gallery-5').text("foto 5");
+    $('#img-gallery-5').attr("src","");
+    /*Link*/
+    $('#link-5').attr("href","");
+
+</script>
+
+</body>
+
+</html>
