@@ -1,7 +1,7 @@
 /*Style menu Principal*/
 .classic-link-title {
 
-  color: rgb(255, 255, 255); 
+  color: #f5f1d9; 
   font-family: Muli; font-weight: 
   normal;
   font-style: normal; 
@@ -86,7 +86,7 @@ display:inline-block;
   /*muy buena idea*/
   /*border:1px solid red;*/
   vertical-align: middle;
-  color: white; 
+  color: #f5f1d9; 
   font-family: Muli; 
   font-weight: normal; 
   font-style: normal; 
