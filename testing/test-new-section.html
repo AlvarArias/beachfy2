@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<meta name="viewport" content="width=device-width">
+<head>
+  <meta charset="utf-8">
+
+  <title id="name-page">Hamn</title>
+  <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,500;1,600&display=swap" rel="stylesheet">
+  
+    <!--f1-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <!--f2-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+  <style type="text/css">
+
+.img-back {
+    width: 100vw;
+    height: 400px;
+    object-fit: cover;
+    object-position:center;
+
+}
+
+.img-gallery {
+    width: 19.5%;
+    height: 180px;
+    object-fit: cover;
+}
+
+html {
+ margin-left: 0px;
+ margin-right:0px;
+}
+
+body{
+margin: 0px;
+width: 100vw;
+background-color:#f5f1e9;
+}
+
+
+.new_font {
+color: rgb(3, 3, 3);
+/*font-family: Muli;*/
+font-family: 'Muli', sans-serif;
+font-weight: normal;
+font-style: normal;
+font-variant-ligatures: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-position: normal;
+font-size: 1.17em;
+}
+
+       .new_font-1 {
+        color: #273E58;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-east-asian: normal;
+        font-variant-position: normal;
+        font-size: 1.17em;
+        }
+
+.new_font-2 {
+        color: #273E58;
+        font-family: 'DM Serif Display', serif;
+        font-weight: normal;
+        font-style: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-east-asian: normal;
+        font-variant-position: normal;
+        font-size: 1.17em;
+        }
+
+ .pad-text {
+ padding-left: 10%;
+ padding-right: 10%;
+ text-algin:center;
+ }
+
+
+.content {
+    text-align: center;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+
+.img-back {
+height: 250px;
+object-fit: cover;
+}
+
+.content{
+width: 90vw;
+overflow-wrap:break-word;
+margin-left: auto;
+margin-right: auto;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.gallery-container {
+flex-flow: column wrap;
+}
+
+}
+
+.text-title {
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.gallery-text-item {
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.gallery-container {
+display: flex;
+flex-direction: row;
+width: 100%;
+align-items: center;
+}
+
+.content-2 {
+width: 100%;
+text-align: center;
+
+padding: 2.3px;
+
+}
+
+.img-gallery2 {
+width: 100%;
+height: 180px;
+object-fit: cover;
+}
+
+
+@media screen and (max-width: 1480px) {
+}
+
+.container-derecho {
+ width: 50%;
+ height: 90%;
+ background-color: aqua;
+
+}
+
+.container-izquierdo {
+width: 50%;
+height: 90%;
+background-color: rosybrown;
+
+}
+
+</style>
+
+
+</head>
+<body>
+<div id="lado-izquierdo">
+<h2>lado-izquierdo</h2>
+
+</div>
+<div id="lado-derecho">
+<h2>lado-derecho</h2>
+
+</div>
+
+<div class="content-2" id="footer">
+    <h4 class="new_font-2"></h4>
+    <!--<div id="test" style="width: 300px; height: 300px; background-color: aqua;">-->
+    <!--<iframe src="https://www.alvararias.se/home/index.html#Infotablet" width="300" height="300"></iframe>-->
+
+    <!--<iframe src="https://www.beachify.me/manage/preview/golf-1/c/0?pwa=1_ngcontent-hte-c30" width="800" height="300"></iframe>-->
+    
+    <iframe src="https://www.beachify.me/manage/preview/golf-1/c/0?pwa=1gb-map-plan" width="500"
+        height="500"></iframe>
+        
+
+    </div>
+</div>
+<!--fin-->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    /*test*/
+    $(window).resize(function () {
+            var width = $(window).width();
+            if (width > 1480) {
+                /*alert('Your screen is too big');*/
+                /*$(selector).find('#text-gallery-1').replaceWith(function () {
+                    return '<h4>' + $(this).text() + '</h4>';
+                });*/
+                /*$("#text-gallery-1").replaceWith("<h4 class="new_font-1" id="text-gallery-1"></h4>");;*/        
+
+
+            }
+        });
+
+   /*$('#test').load('https://www.alvararias.se/home/index.html#my-audio-app');*/
+   /*$('#test').load('htts://wwww.alvararias.se/home/index.html');*/
+
+</script>
+
+</body>
+
+</html>
