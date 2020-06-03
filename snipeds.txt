@@ -156,3 +156,26 @@ Responsive break-points:
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
+
+
+load función jQuery
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    /*test*/
+    $(window).resize(function () {
+            var width = $(window).width();
+            if (width > 1480) {
+                /*alert('Your screen is too big');*/
+                /*$(selector).find('#text-gallery-1').replaceWith(function () {
+                    return '<h4>' + $(this).text() + '</h4>';
+                });*/
+                /*$("#text-gallery-1").replaceWith("<h4 class="new_font-1" id="text-gallery-1"></h4>");;*/        
+
+
+            }
+        });
+
+   /*$('#test').load('https://www.alvararias.se/home/index.html#my-audio-app');*/
+   /*$('#test').load('htts://wwww.alvararias.se/home/index.html');*/
+
+
