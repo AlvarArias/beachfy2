@@ -156,15 +156,15 @@ object-fit: cover;
 
 .container-derecho {
  width: 50%;
- height: 90%;
+ height: 600px;
  background-color: aqua;
 
 }
 
 .container-izquierdo {
 width: 50%;
-height: 90%;
-background-color: rosybrown;
+height: 600px;
+background-color: brown;
 
 }
 
@@ -173,28 +173,23 @@ background-color: rosybrown;
 
 </head>
 <body>
-<div id="lado-izquierdo">
-<h2>lado-izquierdo</h2>
+<div id="main-container" style="display:flex;">    
+    <div id="lado-izquierdo" class="container-izquierdo">
+    <!--<h2>lado-izquierdo</h2>-->
+    <iframe src="https://www.beachify.me/manage/preview/golf-1/c/0?pwa=1_ngcontent-hte-c30" width="500" height="500"
+        style="height: 100%; width: 100%;"></iframe>
 
-</div>
-<div id="lado-derecho">
-<h2>lado-derecho</h2>
-
-</div>
-
-<div class="content-2" id="footer">
-    <h4 class="new_font-2"></h4>
-    <!--<div id="test" style="width: 300px; height: 300px; background-color: aqua;">-->
-    <!--<iframe src="https://www.alvararias.se/home/index.html#Infotablet" width="300" height="300"></iframe>-->
-
-    <!--<iframe src="https://www.beachify.me/manage/preview/golf-1/c/0?pwa=1_ngcontent-hte-c30" width="800" height="300"></iframe>-->
-    
-    <iframe src="https://www.beachify.me/manage/preview/golf-1/c/0?pwa=1gb-map-plan" width="500"
-        height="500"></iframe>
-        
 
     </div>
+
+    <div id="lado-derecho" class="container-derecho">
+    <!--<h2>lado-derecho</h2>-->
+    <iframe src="https://www.beachify.me/manage/preview/golf-1/c/0?pwa=1gb-map-plan" width="500" height="500" style="height: 100%; width: 100%;"></iframe>
+
+    </div>
+
 </div>
+
 <!--fin-->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
