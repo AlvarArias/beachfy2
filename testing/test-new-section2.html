@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<meta name="viewport" content="width=device-width">
+
+<head>
+    <meta charset="utf-8">
+
+    <title id="name-page">themplate</title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,500;1,600&display=swap"
+        rel="stylesheet">
+    <!--f1-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <!--f2-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap"
+        rel="stylesheet">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <style type="text/css">
+        .img-back {
+            width: 100vw;
+            height: 400px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .img-gallery {
+            width: 19.5%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        html {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        body {
+            margin: 0px;
+            width: 100vw;
+        }
+
+
+        .new_font {
+            color: rgb(3, 3, 3);
+            /*font-family: Muli;*/
+            font-family: 'Muli', sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-east-asian: normal;
+            font-variant-position: normal;
+            font-size: 1.17em;
+        }
+
+        .new_font-1 {
+            color: #273E58;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-east-asian: normal;
+            font-variant-position: normal;
+            font-size: 1.17em;
+        }
+
+        .new_font-2 {
+            color: #273E58;
+            font-family: 'DM Serif Display', serif;
+            font-weight: normal;
+            font-style: normal;
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-east-asian: normal;
+            font-variant-position: normal;
+            font-size: 1.17em;
+        }
+
+        .pad-text {
+            padding-left: 10%;
+            padding-right: 10%;
+            text-align: center;
+        }
+
+        .content {
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        /* Extra small devices (phones, 600px and down) */
+        @media screen and (max-width: 600px) {
+
+            .img-back {
+                height: 250px;
+                object-fit: cover;
+            }
+
+            .pad-text {
+                padding-left: 5%;
+                padding-right: 5%;
+                text-align: center;
+            }
+
+            .content {
+                width: 90vw;
+                overflow-wrap: break-word;
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+
+            .gallery-container {
+                flex-flow: column wrap;
+            }
+
+        }
+
+        .text-title {
+            display: flex;
+            flex-direction: row;
+
+            width: 100vw;
+            justify-content: space-around;
+        }
+
+        .gallery-text-item {
+            width: 100%;
+            height: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+            background-color: blueviolet;
+        }
+
+        .gallery-container {
+            display: flex;
+            flex-direction:column;
+            width: 55vw;
+            height: 100vh;
+            align-items: top;
+            background-color: coral;
+            justify-content: space-evenly;
+           
+        }
+
+        .content-2 {
+            width: 90%;
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            height: 200px;
+            align-items: center;
+            
+
+        }
+
+        .img-gallery2 {
+            width: 350px;
+            height: 180px;
+            object-fit: cover;
+            background-color: cornflowerblue;
+        }
+    </style>
+
+
+</head>
+
+<body>
+   <!-- <div id="cont-img-background">
+
+        <img class="img-back" id="imagen-background" src="" alt="">
+
+    </div>-->
+    <!--
+    <div id="text-container">
+        <div class="content">
+            <h3 class="new_font-2 pad-text" id="content-title" style="font-size: 30px;">Title</h3>
+            <p class="new_font-1 pad-text" id="parrafo-1">Text 1.
+            </p>
+
+            <p class="new_font-1 pad-text" id="parrafo-2">Tetx2.</p>
+
+            <p class="new_font-1" id="parrafo-3">Text3.</p>
+
+            <br>
+
+        </div>
+
+    </div>-->
+
+    <!--final-->
+    <div class="gallery-container">
+
+        <div class="content-2" id="gallery-1">
+            
+            <a href="www.google.com" id="link-1"><img class="img-gallery2" id="img-gallery-1" alt="" src="" /></a>
+            <!--<div style="display: flex; flex-direction: column;">
+            <h2 class="new_font-2 gallery-text-item" id="text-gallery-1" style="font-size: 30px;"></h2>
+            <h6 class="new_font-1 gallery-text-item" style="text-align: left; margin-left: 5px;">text del parrafo</h6>
+            </div>-->
+
+        </div>
+        <div class="content-2" id="gallery-2">
+            
+            <a href="" id="link-2"><img class=" img-gallery2" id="img-gallery-2" alt="" src="" /></a>
+            
+            <div style="display: flex; flex-direction: column;">
+            <h2 class="new_font-2 gallery-text-item" id="text-gallery-2" style="font-size: 30px;">spa2</h2>
+            <h6 class="new_font-1 gallery-text-item" style="text-align: left; margin-left: 5px;">text del parrafo</h6>
+            </div>
+        </div>
+        <div class="content-2" id="gallery-3">
+            
+            <a href="" id="link-3"><img class="img-gallery2" id="img-gallery-3" alt="" src="" /></a>
+            
+            <div style="display: flex; flex-direction: column;">
+            <h2 class="new_font-2 gallery-text-item" id="text-gallery-3" style="font-size: 30px;">spa3</h2>
+            <h6 class="new_font-1 gallery-text-item" style="text-align: left; margin-left: 5px;">text del parrafo</h6></div>
+
+        </div>
+        <div class="content-2" id="gallery-4">
+
+            <a href="" id="link-4"><img class="img-gallery2" id="img-gallery-4" alt="" src="" /></a>
+            
+            <div style="display: flex; flex-direction: column;">
+            <h2 class="new_font-2 gallery-text-item" id="text-gallery-4" style="font-size: 30px;">spa4</h2>
+            <h6 class="new_font-1 gallery-text-item" style="text-align: left; margin-left: 5px;">text del parrafo</h6></div>
+
+        </div>
+       <!-- <div class="content-2" id="gallery-5">
+            
+            <a href="" id="link-5"><img class="img-gallery2" id="img-gallery-5" alt="" src="" /></a>
+            <h4 class="new_font-1 gallery-text-item" id="text-gallery-5">spa5</h4>
+
+        </div>-->
+
+    </div>
+    <div class="content-2" id="footer">
+        <h4 class="new_font-1"></h4>
+    </div>
+    <!--fin-->
+    <script>
+        /*Nombre pagina*/
+        $('#name-page').text("Test 2 Map");
+
+        /*Img Background*/
+        $('#imagen-background').attr("src",
+            "");
+
+        /*Titulo principal*/
+        $('#content-title').text("Fem familjefavoriter");
+        /*parrafo 1*/
+        $('#parrafo-1').text(
+            "För barn med mycket spring i benen och omättlig upptäckarglädje finns här gott om aktiviteter.");
+        /*parrafo 2*/
+        $('#parrafo-2').text(
+            "Förutom de kilometerlånga stränderna där barn - och vuxna - kan plaska, bada, samla snäckor, bygga sandslott med mera, vill vi tipsa om följande:"
+            );
+        /*parrafo3*/
+        /*$('#parrafo-3').text("my parrafo 3.");*/
+
+        /*Gallery*/
+        /*Galleria 1*/
+        $('#text-gallery-1').text("Vellinge Golfklubb");
+        $('#img-gallery-1').attr("src",
+            "https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46155577-36988528.jpg?v=1589574416");
+        /*Link*/
+        $('#link-1').attr("href",
+            "https://www.beachify.me/place-grounds/c/0/i/46692335/naturum-pa-falsterbo-strandbad?pwa=1");
+
+        /*Galleria 2*/
+        $('#text-gallery-2').text("Söderslätts Golfklubb");
+        $('#img-gallery-2').attr("src",
+            "https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46158850-36989368.jpg?v=1589579910");
+        /*Link*/
+        $('#link-2').attr("href", "https://www.beachify.me/vellinge/c/0/i/46198000/vellingeblomman-fantasy-garden");
+
+        /*Galleria 3*/
+        $('#text-gallery-3').text("Flommens Golfklubb");
+        $('#img-gallery-3').attr("src",
+            "https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46161095-36989852.jpg?v=1589583645");
+        /*Link*/
+        $('#link-3').attr("href", "https://www.beachify.me/museum-1/c/0/i/45956588/foteviken-museum");
+
+        /*Galleria 4*/
+        $('#text-gallery-4').text("Falsterbo GK");
+        $('#img-gallery-4').attr("src",
+            "https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46175815-36993863.jpg?v=1589623070");
+        /*Link*/
+        $('#link-4').attr("href", "https://www.beachify.me/place-grounds/c/0/i/46692595/kungshaga-gard?pwa=1");
+
+        /*Galleria 5*/
+        $('#text-gallery-5').text("Nyckelhålsparken");
+        $('#img-gallery-5').attr("src",
+            "https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46175419-36993694.jpg?v=1589621759");
+        /*Link*/
+        $('#link-5').attr("href", "https://www.beachify.me/place-grounds/c/0/i/46175419/nyckelhalsparken?pwa=1");
+    </script>
+
+</body>
+
+</html>
+<!--
+Vellinge Golfklubb
+392 Norra Hötoftavägen Vellinge N
+https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46155577-36988528.jpg?v=1589574416
+
+Söderslätts Golfklubb
+260-10 Grevievägen Vellinge N
+https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46158850-36989368.jpg?v=1589579910
+
+
+Flommens Golfklubb
+Fädriften Skanör med Falsterbo Falsterbo
+https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46161095-36989852.jpg?v=1589583645
+
+
+Falsterbo GK
+34 Fyrvägen Skanör med Falsterbo
+https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/46175815-36993863.jpg?v=1589623070
+
+-->

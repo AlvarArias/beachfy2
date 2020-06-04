@@ -22,7 +22,19 @@
         }
 
         /* Extra small devices (phones, 600px and down) */
-        @media screen and (max-width: 600px) {}
+        @media screen and (max-width: 600px) {
+            .container-derecho {
+                display: none;
+            }
+            .iframe-container-r {
+                display: none;
+            }
+
+            .container-izquierdo {
+                width: 100%;
+            }
+           
+        }
 
         @media screen and (max-width: 1480px) {}
 
@@ -45,7 +57,7 @@
         .iframe-container-l {
             height: 900px;
             width: 100%;
-            margin-top: -100px;
+            margin-top: 0px;
             position: relative;
             overflow: hidden;
         }
@@ -54,7 +66,7 @@
             height: 915px;
             width: 100%;
             position: fixed;
-            margin-top: -110px;
+            margin-top: -10px;
             margin-left: -700px;
             z-index: -1;
             overflow: hidden;
@@ -93,13 +105,15 @@ overscroll-behavior: none;*/
             <!--<h2>lado-derecho</h2>-->
             <div style="width: 50vw;height: 700px;">
                 <iframe class="iframe-container-r"
-                    src="https://www.beachify.me/manage/preview/golf-1/c/0?pwa=1gb-map-plan" frameBorder="0"></iframe>
+                         frameBorder="0"></iframe>
 
             </div>
         </div>
     </div>
 
     <!--fin-->
+
+
 
     </script>
 

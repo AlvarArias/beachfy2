@@ -1,0 +1,108 @@
+<div _ngcontent-hjt-c30="" class="map-panel mat-elevation-z2" style="border-color: transparent;background-color: rgb(195, 39, 195);width: 500px;"><div _ngcontent-hjt-c30="" class="map-panel-inner" style="
+    width: 500px;
+"><div _ngcontent-hjt-c30="" class="map-content" style="
+    width: 500px;
+"><!----><router-outlet _ngcontent-hjt-c30=""></router-outlet><gb-map-list _nghost-hjt-c57="" class="no-anim ng-star-inserted"><gb-map-item-list _ngcontent-hjt-c57="" _nghost-hjt-c58=""><div _ngcontent-hjt-c58="" class="map-item-list" gbcategoriesswipe="" gbinfinitescrollcontentloader="" gbscrollable="" style="touch-action: manipulation;user-select: none;-webkit-user-drag: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);width: 500px;"><!----><!----><!----><!----><!----><gb-map-item-cell _ngcontent-hjt-c58="" _nghost-hjt-c61="" class="ng-star-inserted" style=""><a _ngcontent-hjt-c61="" style="background-color: rgb(245, 241, 233);"><!----><!----><div _ngcontent-hjt-c61="" class="content-container ng-star-inserted" style="border-top: 1px solid rgb(234, 234, 234);"><!----><div _ngcontent-hjt-c61="" class="cover-container ng-star-inserted"><gb-background-image _ngcontent-hjt-c61="" _nghost-hjt-c56="" class="ng-tns-c56-10"><div _ngcontent-hjt-c56="" class="image-container responsive" style="height: 0px; padding-top: 60%;"><div _ngcontent-hjt-c56="" class="image-host"><!----><!----><div _ngcontent-hjt-c56="" class="image ng-tns-c56-10 ng-trigger ng-trigger-fadeIn ng-star-inserted loaded image-effect-dezoom" style="background-image: url(&quot;https://cmsphoto.ww-cdn.com/resizeapi/1e2cf05e9788a782e5dee774485989f81e8e632a/750/-1/&quot;); opacity: 1;"></div><!----></div><div _ngcontent-hjt-c56="" class="inner" style="padding-top: 0px;"><!----><div _ngcontent-hjt-c61="" class="distance-container bottom left ng-star-inserted"><div _ngcontent-hjt-c61="" class="distance">53.9 miles</div></div></div></div><!----><!----></gb-background-image></div><div _ngcontent-hjt-c61="" class="point-details"><h3 _ngcontent-hjt-c61="" class="point-title" gblineclamp="2" style="color: rgb(39, 62, 88); font-family: &quot;DM Serif Display&quot;; font-weight: normal; font-style: normal; font-variant: normal; font-size: 28px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; transition: color 300ms ease 0s;"> Vellinge Golfklubb </h3><!----><div _ngcontent-hjt-c61="" class="point-subtitle ng-star-inserted" gblineclamp="2" style="color: rgb(39, 62, 88); font-family: &quot;DM Sans&quot;; font-weight: normal; font-style: normal; font-variant: normal; font-size: 18px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"> 392 Norra Hötoftavägen Vellinge N </div><!----></div></div><!----></a></gb-map-item-cell><!----><!----><gb-map-item-cell _ngcontent-hjt-c58="" _nghost-hjt-c61="" class="ng-star-inserted" style=""><a _ngcontent-hjt-c61="" style="background-color: rgb(245, 241, 233);"><!----><!----><div _ngcontent-hjt-c61="" class="content-container ng-star-inserted" style="border-top: 1px solid rgb(234, 234, 234);"><!----><div _ngcontent-hjt-c61="" class="cover-container ng-star-inserted"><gb-background-image _ngcontent-hjt-c61="" _nghost-hjt-c56="" class="ng-tns-c56-11"><div _ngcontent-hjt-c56="" class="image-container responsive" style="height: 0px; padding-top: 60%;"><div _ngcontent-hjt-c56="" class="image-host"><!----><!----><div _ngcontent-hjt-c56="" class="image ng-tns-c56-11 ng-trigger ng-trigger-fadeIn ng-star-inserted loaded image-effect-dezoom" style="background-image: url(&quot;https://cmsphoto.ww-cdn.com/resizeapi/a0d46ad5f12c5fd0a470eea7d7adff98e0df3309/750/-1/&quot;); opacity: 1;"></div><!----></div><div _ngcontent-hjt-c56="" class="inner" style="padding-top: 0px;"><!----><div _ngcontent-hjt-c61="" class="distance-container bottom left ng-star-inserted"><div _ngcontent-hjt-c61="" class="distance">55.4 miles</div></div></div></div><!----><!----></gb-background-image></div><div _ngcontent-hjt-c61="" class="point-details"><h3 _ngcontent-hjt-c61="" class="point-title" gblineclamp="2" style="color: rgb(39, 62, 88); font-family: &quot;DM Serif Display&quot;; font-weight: normal; font-style: normal; font-variant: normal; font-size: 28px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; transition: color 300ms ease 0s;"> Söderslätts Golfklubb </h3><!----><div _ngcontent-hjt-c61="" class="point-subtitle ng-star-inserted" gblineclamp="2" style="color: rgb(39, 62, 88); font-family: &quot;DM Sans&quot;; font-weight: normal; font-style: normal; font-variant: normal; font-size: 18px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"> 260-10 Grevievägen Vellinge N </div><!----></div></div><!----></a></gb-map-item-cell><!----><!----><gb-map-item-cell _ngcontent-hjt-c58="" _nghost-hjt-c61="" class="ng-star-inserted" style=""><a _ngcontent-hjt-c61="" style="background-color: rgb(245, 241, 233);"><!----><!----><div _ngcontent-hjt-c61="" class="content-container ng-star-inserted" style="border-top: 1px solid rgb(234, 234, 234);"><!----><div _ngcontent-hjt-c61="" class="cover-container ng-star-inserted"><gb-background-image _ngcontent-hjt-c61="" _nghost-hjt-c56="" class="ng-tns-c56-12"><div _ngcontent-hjt-c56="" class="image-container responsive" style="height: 0px; padding-top: 60%;"><div _ngcontent-hjt-c56="" class="image-host"><!----><!----><div _ngcontent-hjt-c56="" class="image ng-tns-c56-12 ng-trigger ng-trigger-fadeIn ng-star-inserted loaded image-effect-dezoom" style="background-image: url(&quot;https://cmsphoto.ww-cdn.com/resizeapi/d4db93d6eeed4de94ae52edfbbd6a886882120b6/750/-1/&quot;); opacity: 1;"></div><!----></div><div _ngcontent-hjt-c56="" class="inner" style="padding-top: 0px;"><!----><div _ngcontent-hjt-c61="" class="distance-container bottom left ng-star-inserted"><div _ngcontent-hjt-c61="" class="distance">58.6 miles</div></div></div></div><!----><!----></gb-background-image></div><div _ngcontent-hjt-c61="" class="point-details"><h3 _ngcontent-hjt-c61="" class="point-title" gblineclamp="2" style="color: rgb(39, 62, 88); font-family: &quot;DM Serif Display&quot;; font-weight: normal; font-style: normal; font-variant: normal; font-size: 28px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; transition: color 300ms ease 0s;"> Flommens Golfklubb </h3><!----><div _ngcontent-hjt-c61="" class="point-subtitle ng-star-inserted" gblineclamp="2" style="color: rgb(39, 62, 88); font-family: &quot;DM Sans&quot;; font-weight: normal; font-style: normal; font-variant: normal; font-size: 18px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"> Fädriften Skanör med Falsterbo Falsterbo </div><!----></div></div><!----></a></gb-map-item-cell><!----><!----><gb-map-item-cell _ngcontent-hjt-c58="" _nghost-hjt-c61="" class="ng-star-inserted" style=""><a _ngcontent-hjt-c61="" style="background-color: rgb(245, 241, 233);"><!----><!----><div _ngcontent-hjt-c61="" class="content-container ng-star-inserted" style="border-top: 1px solid rgb(234, 234, 234);"><!----><div _ngcontent-hjt-c61="" class="cover-container ng-star-inserted"><gb-background-image _ngcontent-hjt-c61="" _nghost-hjt-c56="" class="ng-tns-c56-13"><div _ngcontent-hjt-c56="" class="image-container responsive" style="height: 0px; padding-top: 60%;"><div _ngcontent-hjt-c56="" class="image-host"><!----><!----><div _ngcontent-hjt-c56="" class="image ng-tns-c56-13 ng-trigger ng-trigger-fadeIn ng-star-inserted loaded image-effect-dezoom" style="background-image: url(&quot;https://cmsphoto.ww-cdn.com/resizeapi/8b91d2c587c1c257e4ac74ea935312834db08ed0/750/-1/&quot;); opacity: 1;"></div><!----></div><div _ngcontent-hjt-c56="" class="inner" style="padding-top: 0px;"><!----><div _ngcontent-hjt-c61="" class="distance-container bottom left ng-star-inserted"><div _ngcontent-hjt-c61="" class="distance">59.3 miles</div></div></div></div><!----><!----></gb-background-image></div><div _ngcontent-hjt-c61="" class="point-details"><h3 _ngcontent-hjt-c61="" class="point-title" gblineclamp="2" style="color: rgb(39, 62, 88); font-family: &quot;DM Serif Display&quot;; font-weight: normal; font-style: normal; font-variant: normal; font-size: 28px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; transition: color 300ms ease 0s;"> Falsterbo GK </h3><!----><div _ngcontent-hjt-c61="" class="point-subtitle ng-star-inserted" gblineclamp="2" style="color: rgb(39, 62, 88); font-family: &quot;DM Sans&quot;; font-weight: normal; font-style: normal; font-variant: normal; font-size: 18px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"> 34 Fyrvägen Skanör med Falsterbo </div><!----></div></div><!----></a></gb-map-item-cell><!----><!----><!----><!----></div><!----></gb-map-item-list></gb-map-list></div></div><!----><gb-sidenav-toggle-button _ngcontent-hjt-c30="" _nghost-hjt-c36="" class="ng-star-inserted" style="border-color: transparent; background-color: rgb(245, 241, 233);"><div _ngcontent-hjt-c36="" class="arrow"></div></gb-sidenav-toggle-button></div>
+
+
+element.style {
+    border-color: transparent;
+    background-color: rgb(195, 39, 195);
+    width: 500px;
+}
+@media only screen and (max-width: 1024px) and (min-width: 600px) and (orientation: landscape) and (orientation: portrait), only screen and (max-width: 1279px) and (min-width: 960px) and (orientation: landscape)
+<style>
+.map-panel[_ngcontent-hjt-c30], .map-panel-inner[_ngcontent-hjt-c30] {
+    transition: width 250ms ease-in-out,transform 250ms ease-in-out;
+}
+@media only screen and (max-width: 1024px) and (min-width: 600px) and (orientation: landscape) and (orientation: portrait), only screen and (max-width: 1279px) and (min-width: 960px) and (orientation: landscape)
+<style>
+.map-panel[_ngcontent-hjt-c30] {
+    width: 400px;
+}
+<style>
+.map-panel[_ngcontent-hjt-c30] {
+    position: relative;
+    transform: translate3d(0,0,0);
+    z-index: 1;
+}
+<style>
+body.mobile *, body.tablet * {
+    cursor: url(/pview/front-assets/img/touch-cursor.png) 13 13,auto!important;
+    cursor: -webkit-image-set(url(/pview/front-assets/img/touch-cursor.png) 1x, url(/pview/front-assets/img/touch-cursor@2x.png) 2x) 13 13,auto!important;
+}
+<style>
+.mat-elevation-z2 {
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+<style>
+* {
+    word-wrap: break-word;
+    touch-action: manipulation;
+}
+<style>
+*, :after, :before {
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+<style>
+.mat-drawer-container {
+    color: rgba(0,0,0,.87);
+}
+@media only screen and (min-width: 960px)
+<style>
+body {
+    font-size: 15.5px;
+}
+@media only screen and (min-width: 0)
+<style>
+body {
+    font-size: 15px;
+}
+<style>
+body {
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    overflow-x: hidden;
+}
+<style>
+:root {
+    --vh: 1vh;
+}
+@media only screen and (min-width: 0)
+<style>
+html {
+    font-size: 14px;
+}
+<style>
+html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    color: rgba(0,0,0,.87);
+    box-sizing: border-box;
+}
+<style>
+*, :after, :before {
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+<style>
+*, :after, :before {
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+task 1
+change top in #container-preview
+
+change 500 in
