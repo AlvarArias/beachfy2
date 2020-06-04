@@ -178,4 +178,118 @@ load función jQuery
    /*$('#test').load('https://www.alvararias.se/home/index.html#my-audio-app');*/
    /*$('#test').load('htts://wwww.alvararias.se/home/index.html');*/
 
+-----------------
 
+/*.map-panel-inner[_ngcontent-qsy-c30] 400 px to 500px*/ quizá
+
+en la regla de ancho minimo:
+
+1-
+.map-item-list -> add width:700px;
+
+2
+.cover-container[_ngcontent-qsy-c62] --> width: 175 to 375;
+3
+correr flecha
+[_nghot-qsy-c36] ---> left: 135%;
+
+@media only screen and (orientation:portrait) and (min-width:1025px),only screen and (orientation:landscape) and (min-width:1280px){.map-panel[_ngcontent-qsy-c30]{width:400px}.map-panel.hide[_ngcontent-qsy-c30] .map-panel-inner[_ngcontent-qsy-c30]{transform:translateX(-400px)}.map-panel-inner[_ngcontent-qsy-c30]{width:400px}.map-panel-inner[_ngcontent-qsy-c30],.map-panel[_ngcontent-qsy-c30]{transition:width 250ms ease-in-out,transform 250ms ease-in-out}.map-layout.is-detail[_ngcontent-qsy-c30] .map-panel[_ngcontent-qsy-c30],.map-layout.is-detail[_ngcontent-qsy-c30] .map-panel[_ngcontent-qsy-c30] .map-panel-inner[_ngcontent-qsy-c30]{width:600px}.map-layout.is-detail[_ngcontent-qsy-c30] .map-panel.hide[_ngcontent-qsy-c30] .map-panel-inner[_ngcontent-qsy-c30]{transform:translateX(-600px)}}
+
+saque: map-item-list{width:700px}.cover-container[_ngcontent-qsy-c62]{width:375px}[_nghot-qsy-c36]{left:135%}
+
+
+solution
+1-Ancho de la foto:
+@media only screen and (max-width: 1024px) and (min-width: 600px) and (orientation: portrait), only screen and (max-width: 1279px) and (min-width: 960px) and (orientation: landscape)
+<style>
+.cover-container[_ngcontent-qsy-c62] {
+    margin-right: 10px;
+}
+<style>
+.cover-container[_ngcontent-qsy-c62] {
+    width: 375px;<-----este largo se cambia
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+
+2-Ancho container 
+<div _ngcontent-qsy-c30="" class="map-content" style="
+    width: 700px;<---add este largo
+
+3-fecha:
+<gb-sidenav-toggle-button _ngcontent-qsy-c30="" _nghost-qsy-c36="" class="ng-star-inserted" style="border-color: transparent; background-color: rgb(245, 241, 233);"><div _ngcontent-qsy-c36="" class="arrow"></div></gb-sidenav-toggle-button>
+
+css
+element.style {
+    border-color: transparent;
+    background-color: rgb(245, 241, 233);
+}
+gb-sidenav-toggle-button[_ngcontent-qsy-c30] {
+    box-shadow: 0 3px 0 -2px rgba(0,0,0,.2), 0 2px 0 0 rgba(0,0,0,.14), 0 1px 0 0 rgba(0,0,0,.12);
+}
+body.mobile *, body.tablet * {
+    cursor: url(/pview/front-assets/img/touch-cursor.png) 13 13,auto!important;
+    cursor: -webkit-image-set(url(/pview/front-assets/img/touch-cursor.png) 1x, url(/pview/front-assets/img/touch-cursor@2x.png) 2x) 13 13,auto!important;
+}
+---> este se cambia:[_nghost-qsy-c36] {
+    position: absolute;
+    top: 20px;
+    left: 100%;
+    cursor: pointer;
+    padding: 20px 10px 20px 5px;
+    z-index: 10;
+}
+
+4 barra (gb-navbar-small)
+<div _ngcontent-qsy-c48="" class="gb-navbar" style=""><gb-background-image _ngcontent-qsy-c48="" _nghost-qsy-c56="" class="ng-tns-c56-5"><div _ngcontent-qsy-c56="" class="image-container" style="padding-top: initial;"><div _ngcontent-qsy-c56="" class="image-host"><!----><!----><div _ngconte
+
+_ngcontent-qsy-c48= element.style {
+    background-color: rgb(39, 62, 88);<---- transparent
+}
+
+sacar icons
+<gb-navbar-shortcuts _ngcontent-qsy-c32="" _nghost-qsy-c45="" class="ng-tns-c45-3 ng-star-inserted" style="
+    display: none;
+
+<mat-sidenav-container _ngcontent-qsy-c12="" class="mat-drawer-container mat-sidenav-container hide-backdrop"><!----><div class="mat-drawer-
+
+.mat-drawer-container {
+    margin-top: -40px;<----cambie
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+    overflow: hidden;
+}
+
+
+}
+<html class="wf-mulidisplayswap-n4-inactive wf-dmsans-n4-active wf-dmserifdisplay-n4-active wf-active" lang="sv">
+
+Ljunghusen
+url('https://cmsphoto.ww-cdn.com/resizeapi/f495dc6ae6bd00c4bf67f8e08d0dc39f673abf29/314/196/')
+new
+https://cmsphoto.ww-cdn.com/superstatic/2107948/art/default/45027072-36908879.jpg?v=1589210319
+
+
+Falstebro
+url('https://cmsphoto.ww-cdn.com/resizeapi/8b91d2c587c1c257e4ac74ea935312834db08ed0/314/196/')
+
+
+
+5- esta es alargar el contenido hast el tope
+
+<mat-sidenav-content cdkscrollable="" class="mat-drawer-content mat-sidenav-content ng-star-inserted" style="height: 1200px;"><----add height: 1200px;
+
+
+<div _ngcontent-qsy-c11="" id="main-outlet-container" class="ng-trigger ng-trigger-appRouteAnimation ng-tns-c11-0"><router-outlet _ngcontent-qsy-c11="" class="ng-tns-c11-0"></router-outlet><ng-component _nghost-qsy-c28="" class="ng-star-inserted" style=""><gb-map-navbar _ngcontent-qsy-c28="" _nghost-qsy-c29=""><!----><gb-map-navbar-list _ngcontent-qsy-c29="" class="no-anim ng-star-inserted" _nghost-qsy-c32="
+
+
+6- mapa
+<div style="z-index: 1;position: absolute;left: 70%;top: 50%;width: 100%;transform: translate(0px, 0px);">
+
+cambiar     left: 30%;
