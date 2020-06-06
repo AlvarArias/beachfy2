@@ -207,7 +207,7 @@ solution
 }
 <style>
 .cover-container[_ngcontent-qsy-c62] {
-    width: 375px;<-----este largo se cambia
+    width: 375px;<-----este largo se cambia (2do item)
     overflow: hidden;
     float: left;
     margin-right: 20px;
@@ -217,7 +217,7 @@ solution
 
 2-Ancho container 
 <div _ngcontent-qsy-c30="" class="map-content" style="
-    width: 700px;<---add este largo
+    width: 700px;"<---add este largo
 
 3-fecha:
 <gb-sidenav-toggle-button _ngcontent-qsy-c30="" _nghost-qsy-c36="" class="ng-star-inserted" style="border-color: transparent; background-color: rgb(245, 241, 233);"><div _ngcontent-qsy-c36="" class="arrow"></div></gb-sidenav-toggle-button>
@@ -293,3 +293,75 @@ url('https://cmsphoto.ww-cdn.com/resizeapi/8b91d2c587c1c257e4ac74ea935312834db08
 <div style="z-index: 1;position: absolute;left: 70%;top: 50%;width: 100%;transform: translate(0px, 0px);">
 
 cambiar     left: 30%;
+
+
+
+
+new
+map-item-list[_ngcontent-hjs-c59] {
+    height: 100%;
+    overflow-y: auto;
+    width: 700px;<----era 400px lo cambie y el fondo cambio
+
+}
+
+.map-panel[_ngcontent-hjs-c30], .map-panel-inner[_ngcontent-hjs-c30] {
+    transition: width 250ms ease-in-out,transform 250ms ease-in-out;
+}
+.map-panel[_ngcontent-hjs-c30] {
+    width: 700px;--<lo mismo era 400
+
+
+
+!!!!! importante
+este hizo cambio
+element {
+    width: 700px;
+}
+<div _ngcontent-hjs-c30="" class="map-panel-inner" style="width: 700px;"><div _ngcontent-hjs-c30="" class="map-content"><!
+
+css:@media only screen and (max-width: 1024px) and (min-width: 600px) and (orientation: landscape) and (orientation: portrait), only screen and (max-width: 1279px) and (min-width: 960px) and (orientation: landscape)
+.map-panel-inner[_ngcontent-hjs-c30] {
+    width: 400px;
+}
+Cambiar en la regla 400px por 700px es mejor que cambiar las condiciones del elemento.
+
+
+
+
++
+.map-item-list[_ngcontent-hjs-c59] {
+    height: 100%;
+    overflow-y: auto;
+    width: 700px;<--cambiar de 400 a 700px
+}ok
+
+
+corre el mapa a la izquierda
+element {
+    border-color: transparent;
+    background-color: rgb(245, 241, 233);
+    width: 400px;<!----agregar propiedad
+
+<div _ngcontent-hjs-c30="" class="map-panel mat-elevation-z2" style="border-color: transparent; background-color: rgb(245, 241, 233);width: 400px;"><div _ngcontent-hjs-c30="" class="map-panel-inner" style="width: 700px;"><div _ngcontent-hjs-c30="" class="map-content"><!----><router-
+
+3-style="z-index: 1;position: absolute;left: 50%;top: 40%;width: 100%;transform: translate(0px, 0px);height: 100%;"
+
+element.style {
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 100%;
+    transform: translate(0px, 0px);
+    height: 100%;
+}
+
+finalmente html arriba
+
+
+.mat-drawer-container{margin-top:-40px;position:relative;z
+
+.gb-navbar[_ngcontent-hjs-c48]{background-color: rgb(39, 62, 88);
+
+gb-navbar-shortcut
