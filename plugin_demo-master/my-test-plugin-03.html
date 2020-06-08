@@ -66,7 +66,10 @@
         .title-sup {
             text-align: center;
             color: #273e58;
+        
         }
+
+       
 
         /*mobile and tablet*/
         @media only screen and (orientation:portrait) and (max-width:1024px),
@@ -85,12 +88,18 @@
             }
 
             body {
-                margin-top: -0px;
+                margin-top: 10px;
             }
 
             .title-sup {
                 text-align: left;
                 padding-left: 10px;
+            }
+
+            
+
+            #text-big {
+            display: none;
             }
 
         }
@@ -102,7 +111,10 @@
             .iframe-mobile {
                 /*visibility: hidden;*/
                 display: none;
+            }
 
+            #text-small {
+            display: none;
             }
 
         }
@@ -116,7 +128,8 @@
         frameBorder="0"></iframe>
 
     <div id="barra">
-        <h1 class="title-sup">Text about Golf</h1>
+        <h1 id="text-big" class="title-sup">Text about Golf</h1>
+        <h2 id="text-small" class="title-sup">Text about Golf</h2>
     </div>
     <div>
         <!--<button onclick="gbGoToSection(32154410);">Click aqui</button>-->
