@@ -43,44 +43,6 @@
             background-color: #F5F1E9;
             z-index: 1000;
         }
-        /*mobile and tablet*/
-        @media only screen and (orientation:portrait) and (max-width:1024px),
-        only screen and (orientation:landscape) and (max-width:1024px) {
-
-            .container {
-                /*visibility: hidden;*/
-                display: none;
-
-            }
-
-            #barra {
-                /*display: none;*/
-                height: 50px;
-                width: 200%;
-            }
-
-            body {
-                margin-top: -50px;
-            }
-
-            .title-sup{
-                text-align: left;
-                padding-left: 10px;
-            }
-
-        }
-        /*desktop and big screen*/
-        @media only screen and (orientation:portrait) and (min-width:1025px),
-        only screen and (orientation:landscape) and (min-width:1025px) {
-
-            .iframe-mobile {
-                /*visibility: hidden;*/
-                display: none;
-
-            }
-
-        }
-
 
 
         body {
@@ -102,10 +64,48 @@
         }
 
         .title-sup {
-        text-align: center;
-        color: #273e58;
+            text-align: center;
+            color: #273e58;
         }
 
+        /*mobile and tablet*/
+        @media only screen and (orientation:portrait) and (max-width:1024px),
+        only screen and (orientation:landscape) and (max-width:1024px) {
+
+            .container {
+                /*visibility: hidden;*/
+                display: none;
+
+            }
+
+            #barra {
+                /*display: none;*/
+                height: 50px;
+                width: 200%;
+            }
+
+            body {
+                margin-top: -0px;
+            }
+
+            .title-sup {
+                text-align: left;
+                padding-left: 10px;
+            }
+
+        }
+
+        /*desktop and big screen*/
+        @media only screen and (orientation:portrait) and (min-width:1025px),
+        only screen and (orientation:landscape) and (min-width:1025px) {
+
+            .iframe-mobile {
+                /*visibility: hidden;*/
+                display: none;
+
+            }
+
+        }
     </style>
 </head>
 
@@ -116,7 +116,7 @@
         frameBorder="0"></iframe>
 
     <div id="barra">
-        <h1 class="title-sup" > Text about Golf </h1>
+        <h1 class="title-sup">Text about Golf</h1>
     </div>
     <div>
         <!--<button onclick="gbGoToSection(32154410);">Click aqui</button>-->
@@ -125,9 +125,7 @@
     <div class="container">
         <!--./mapv5-copy.html-->
         <!--<div style="height: 1000px; width: 800px; position: absolute; margin-left: 0px; margin-top: 0px;"></div>-->
-        <iframe class="iframe-preview-2" width="700" height="1500px"
-            src="./mapv5-copy.html"
-            frameBorder="0"" style=""></iframe>
+        <iframe class="iframe-preview-2" width="700" height="1500px" src="./mapv5-copy.html" frameBorder="0"" style=""></iframe>
 
      <div style=" height:100% width: 50%; margin-top:0px; position: absolute;">
             <!--<img class="img-map" src="./map-01.jpg">-->
