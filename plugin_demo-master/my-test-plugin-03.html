@@ -25,6 +25,7 @@
             position: absolute;
             width: 100vw;
             height: 100vh;
+            z-index: 10;
         }
 
         .iframe-preview-2 {
@@ -40,7 +41,7 @@
             height: 90px;
             position: absolute;
             background-color: #F5F1E9;
-            z-index: 2;
+            z-index: 1000;
         }
 
         @media only screen and (orientation:portrait) and (max-width:1024px),
@@ -91,17 +92,17 @@
         }
 
         .map-scroll {
-            overflow: hidden;    
+            overflow: hidden;
 
         }
     </style>
 </head>
 
 <body>
-
+    <!--https://www.beachify.me/pview/strandkartan/golf-1/c/0?pwa=1-->
+    <!--./map-copy.html-->
     <iframe class="iframe-mobile" src="https://www.beachify.me/pview/strandkartan/golf-1/c/0?pwa=1"
         frameBorder="0"></iframe>
-
 
     <div id="barra">
 
@@ -111,20 +112,21 @@
     </div>
 
     <div class="container">
-
+        <!--./mapv5-copy.html-->
         <!--<div style="height: 1000px; width: 800px; position: absolute; margin-left: 0px; margin-top: 0px;"></div>-->
-        <iframe class="iframe-preview-2" width="700" height="1500px" src="./mapv5-copy.html" frameBorder="0"" style=""></iframe>
+        <iframe class="iframe-preview-2" width="700" height="1500px"
+            src="./mapv5-copy.html"
+            frameBorder="0"" style=""></iframe>
 
      <div style=" height:100% width: 50%; margin-top:0px; position: absolute;">
             <!--<img class="img-map" src="./map-01.jpg">-->
-          <iframe class="img-map map-scroll" width="700px" height="1500px" src="./map-02.jpg"
-              frameBorder="0"" style="" scroll=no></iframe>  
+            <iframe class="img-map map-scroll" width="700px" height="1500px" src="./map-02.jpg" frameBorder="0"" style="" scroll=no></iframe>  
     </div>
 
 
 
     </div>
-    <!--<div style="width: 100px;height: 100px;background-color: blue;"></div>-->
+    <!--<div style=" width: 100px;height: 100px;background-color: blue;"></div>-->
 
 
 
