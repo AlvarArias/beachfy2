@@ -3,27 +3,12 @@
 <meta name="viewport" content="width=device-width">
 
 <head>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-     <link rel="stylesheet" href="/resources/demos/style.css">
     <title>plugin-map</title>
-   
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./style.css" type="text/css" />
     <script src="./GBJSTK.js"></script>
     <script src="./script.js"></script>
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/zoomove/1.3.0/zoomove.min.css">
-
-    <!-- JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/zoomove/1.3.0/zoomove.min.js"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-
     <style>
-
         html {
             background-color: #F5F1E9;
 
@@ -32,9 +17,7 @@
         .container {
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
             /*align-items: center;*/
-        
         }
 
         .iframe-mobile {
@@ -46,14 +29,9 @@
         }
 
         .iframe-preview-2 {
-            /*margin-top: -415px;*/
-            /*margin-top: -55px;
-            padding-top: 100px;*/
-            z-index: 5;
+            margin-top: -415px;
+            z-index: 1;
             border: 0px;
-            width: 720px;
-            height: 1000px;
-            overflow-y: hidden; 
             /*overflow: hidden;*/
             /*background-color:red;*/
         }
@@ -73,21 +51,12 @@
         }
 
         .img-map {
-            padding-left: 400px;
+            margin-left: 700px;
             height: 990px;
-            width: 1500px;
+            width: 150%;
             margin-top: 90px;
             z-index: -1
         }
-
-        .img-map-1 {
-        margin-left: -400px;
-        height: 990px;
-        width: 1500px;
-        margin-top: -90px;
-        z-index: -1
-        }
-
 
         .map-scroll {
             overflow: hidden;
@@ -149,28 +118,11 @@
             display: none;
             }
 
-
         }
-
-        #draggable { width: 150px; height: 150px; padding: 0.5em;
-        }
-
-
     </style>
-
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-      $(function () {
-          $("#draggable").draggable({
-              handle: "img"
-          });
-      });
-  </script>
-
 </head>
 
-    <body>
+<body>
 
     <div id="barra">
         <h1 id="text-big" class="title-sup">Text about Golf</h1>
@@ -183,30 +135,27 @@
     <iframe class="iframe-mobile" src="https://www.beachify.me/pview/strandkartan/golf-1/c/0?pwa=1"
         frameBorder="0"></iframe>
 
+    
+    <div>
+        <!--<button onclick="gbGoToSection(32154410);">Click aqui</button>-->
+    </div>
 
     <div class="container">
         <!--./mapv5-copy.html-->
         <!--<div style="height: 1000px; width: 800px; position: absolute; margin-left: 0px; margin-top: 0px;"></div>-->
-        <iframe class="iframe-preview-2" src="./template-copy.html" frameBorder="0""></iframe>
+        <iframe class="iframe-preview-2" width="700" height="1520px" src="./mapv5-copy.html" frameBorder="0""></iframe>
 
-     <!--<div style=" height:100%! width: 100%; padding-left:10px; position: absolute;">-->
+     <div style=" height:100% width: 50%; padding-left:10px; position: absolute;">
             <!--<img class="img-map" src="./map-01.jpg">-->
-            <!--<iframe class="img-map map-scroll" width=100% height="1500px" src="./map-02-copy.jpg" frameBorder="0"" style="" scroll=no></iframe>-->  
-            
-          <div id="MainDiv" style="background-color: transparent; width: 55%; height: 1050px;overflow: hidden; z-index: 1;">
-            <div id="draggable" class="ui-widget-content">
-                <!--<img id="img-test" src="./map-02-copy.jpg" alt="img-test" style="margin-left: -400px;">-->
-                <iframe class="img-map-1 map-scroll" width=100% height="1500px
-                    src="https://www.beachify.me/pview/strandkartan/golf-1/c/0?pwa=1"
-                    frameBorder="0"" style="" scroll=no></iframe>
-            </div>
-          </div>
-
+            <iframe class="img-map map-scroll" width="100%" height="1500px" src="./map-02 copy.jpg" frameBorder="0"" style="" scroll=no></iframe>  
     </div>
 
 
+
     </div>
-  
+    <!--<div style=" width: 100px;height: 100px;background-color: blue;"></div>-->
+
+
 
 
 </body>

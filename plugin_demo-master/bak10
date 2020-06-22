@@ -34,7 +34,6 @@
             flex-direction: row;
             justify-content: space-evenly;
             /*align-items: center;*/
-        
         }
 
         .iframe-mobile {
@@ -46,14 +45,9 @@
         }
 
         .iframe-preview-2 {
-            /*margin-top: -415px;*/
-            /*margin-top: -55px;
-            padding-top: 100px;*/
+            margin-top: -415px;
             z-index: 5;
             border: 0px;
-            width: 720px;
-            height: 1000px;
-            overflow-y: hidden; 
             /*overflow: hidden;*/
             /*background-color:red;*/
         }
@@ -80,15 +74,6 @@
             z-index: -1
         }
 
-        .img-map-1 {
-        margin-left: -400px;
-        height: 990px;
-        width: 1500px;
-        margin-top: -90px;
-        z-index: -1
-        }
-
-
         .map-scroll {
             overflow: hidden;
 
@@ -100,6 +85,14 @@
         
         }
 
+        #MainDiv {
+        background-color: transparent; 
+        width: 60%; 
+        height: 1050px;
+        overflow: hidden; 
+        z-index: 1;
+
+        }
        
 
         /*mobile and tablet*/
@@ -155,6 +148,13 @@
         #draggable { width: 150px; height: 150px; padding: 0.5em;
         }
 
+        @media only screen and (max-width:1440px) {
+        
+        #MainDiv {
+        width: 50%;
+        }
+
+        }
 
     </style>
 
@@ -186,19 +186,16 @@
 
     <div class="container">
         <!--./mapv5-copy.html-->
-        <!--<div style="height: 1000px; width: 800px; position: absolute; margin-left: 0px; margin-top: 0px;"></div>-->
-        <iframe class="iframe-preview-2" src="./template-copy.html" frameBorder="0""></iframe>
+        <!--<div style="height: 1000px; width: 700px; position: absolute; margin-left: 0px; margin-top: 0px;"></div>-->
+        <iframe class="iframe-preview-2" width="700px" height="1520px" src="./mapv5-copy.html" frameBorder="0""></iframe>
 
      <!--<div style=" height:100%! width: 100%; padding-left:10px; position: absolute;">-->
             <!--<img class="img-map" src="./map-01.jpg">-->
-            <!--<iframe class="img-map map-scroll" width=100% height="1500px" src="./map-02-copy.jpg" frameBorder="0"" style="" scroll=no></iframe>-->  
+            <!--<iframe class="img-map map-scroll" width=100% height="1500px" src="./map-3-1.jpg" frameBorder="0"" style="" scroll=no></iframe>-->  
             
-          <div id="MainDiv" style="background-color: transparent; width: 55%; height: 1050px;overflow: hidden; z-index: 1;">
+          <div id="MainDiv">
             <div id="draggable" class="ui-widget-content">
-                <!--<img id="img-test" src="./map-02-copy.jpg" alt="img-test" style="margin-left: -400px;">-->
-                <iframe class="img-map-1 map-scroll" width=100% height="1500px
-                    src="https://www.beachify.me/pview/strandkartan/golf-1/c/0?pwa=1"
-                    frameBorder="0"" style="" scroll=no></iframe>
+                <img id="img-test" src="./map-02-copy.jpg" alt="img-test" style="margin-left: -400px;">
             </div>
           </div>
 
